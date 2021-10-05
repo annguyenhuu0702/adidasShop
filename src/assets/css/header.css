@@ -1,0 +1,145 @@
+.top__menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top__menu ul {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+}
+
+.top__menu ul li {
+    list-style: none;
+    margin: 0 0.8rem;
+}
+
+.top__menu ul li:last-child {
+    margin: 0;
+}
+
+.top__menu ul li a {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.top__menu ul li a:hover {
+    text-decoration: none;
+    color: var(--text-hover-color);
+}
+
+.image-flag img {
+    width: 25px;
+}
+
+.header__bottom {
+    height: 48px;
+    padding-top: 0;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(0);
+    transition: 400ms transform;
+    will-change: transform;
+    position: relative;
+}
+
+.header__bottom-wrap {
+    display: flex;
+    align-items: center;
+    max-width: none;
+    position: relative;
+    justify-content: space-between;
+}
+
+.bottom__menu {
+    display: flex;
+    position: relative;
+}
+
+.bottom__logo img {
+    width: 70px;
+    position: relative;
+    top: -15px;
+}
+
+.menu-navigation {
+    display: flex;
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    align-items: center;
+    margin: 0 1.6rem;
+}
+
+.menu-navigation a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu-navigation .active {
+    color: #FFD700;
+}
+
+.bottom__right-side-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search__input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.search__input-wrapper form {
+    display: flex;
+}
+
+.search__input-wrapper form input {
+    padding-right: 35px;
+    min-width: 250px;
+    font-size: 1.4rem;
+}
+
+.search__input-icon {
+    position: absolute;
+    right: 52px;
+    top: 16px;
+}
+
+.search__input-icon i {
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 1.4rem;
+}
+
+.side-menu__cart {
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+.side-menu__cart i {
+    cursor: pointer;
+}
+
+.side-menu__cart-qtt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ee4d2d;
+    color: var(--white-color);
+    position: absolute;
+    top: -6px;
+    right: -1px;
+    font-size: 1.4rem;
+}
