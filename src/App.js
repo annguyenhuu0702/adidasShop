@@ -1,4 +1,6 @@
 import Banner from "./components/Banner/Banner";
+import Collection from "./components/Collections/Collection";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <Collection />
+      <Footer />
     </div>
   );
 }

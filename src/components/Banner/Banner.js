@@ -8,11 +8,11 @@ function Banner() {
       <div className="banner__wrap">
         <div className="banner-video">
           <div className="bg-video">
-            <video
-              autoPlay
-              loop
-              src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/training_fw21-yts-hp-launch-masthead-d_frg2fk.mp4"
-            ></video>
+            <img
+              className="w-100"
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/running-fw21-jamesbond-ultraboost-inline-launch-hp-mh-large-v1-d_tcm337-754544.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="banner-content">

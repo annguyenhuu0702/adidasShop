@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 50px;
+}
+
+.footer-list__item h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.footer-list__item ul {
+    padding-left: 0;
+}
+
+.footer-list__item ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.footer-list__item ul li a {
+    color: var(--text-color);
+}
+
+.footer-list__item ul li a img {
+    width: 160px;
+    height: 110px;
+}
