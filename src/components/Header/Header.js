@@ -122,7 +122,7 @@ function Header() {
                   </div>
                   <div className="side-menu__cart">
                     <i className="far fa-shopping-cart"></i>
-                    <div className="side-menu__cart-qtt">10</div>
+                    <div className="side-menu__cart-qtt">0</div>
                   </div>
                 </div>
               </div>

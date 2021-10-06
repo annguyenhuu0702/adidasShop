@@ -42,11 +42,6 @@ function PageMan() {
           </div>
         </div>
       </div>
-      <div className="title-bar">
-        <div className="container">
-          <div className="row"></div>
-        </div>
-      </div>
     </section>
   );
 }
