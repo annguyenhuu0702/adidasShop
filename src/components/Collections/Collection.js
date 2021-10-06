@@ -7,11 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 function Collection() {
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
+    arrows: true,
+    infinite: false,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplaySpeed: 1000,
   };
   return (
     <div className="collection container">

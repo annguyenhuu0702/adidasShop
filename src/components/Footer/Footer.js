@@ -138,6 +138,27 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="footer-bottom container-fluid">
+        <div className="row justify-content-center">
+          <ul className="footer-bottom__list">
+            <li className="footer-bottom__list-item">
+              <a href=" ">Chính sách bảo mật</a>
+              <span>|</span>
+            </li>
+            <li className="footer-bottom__list-item">
+              <a href=" ">Điều khoản và điều kiện</a>
+              <span>|</span>
+            </li>
+            <li className="footer-bottom__list-item">
+              <a href=" ">Thông tin công ty</a>
+              <span>|</span>
+            </li>
+            <li className="footer-bottom__list-item">
+              <a href=" ">2020 Công ty TNHH adidas Việt Nam</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   );
 }

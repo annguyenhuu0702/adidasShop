@@ -26,3 +26,34 @@
     width: 160px;
     height: 110px;
 }
+
+.footer-bottom {
+    background-color: #363738;
+}
+
+.footer-bottom__list {
+    display: flex;
+    padding: 10px 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.footer-bottom__list-item {
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 0 10px;
+}
+
+.footer-bottom__list-item span {
+    color: #c8ccbb;
+    margin-left: 16px;
+}
+
+.footer-bottom__list li a {
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.footer-bottom__list li a:hover {
+    text-decoration: none;
+}
