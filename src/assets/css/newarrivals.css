@@ -1,0 +1,52 @@
+.newarrivals {
+    margin-top: 40px;
+}
+
+.arrivals-item:hover {
+    border: 1px solid var(--black-color);
+}
+
+.newarrivals-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newarrivals-title h2 {
+    font-size: 3.6rem;
+    margin-bottom: 10px;
+}
+
+.newarrivals-title h4 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.newarrivals-title h4:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.arrivals-img {
+    position: relative;
+}
+
+.arrivals-price {
+    position: absolute;
+    bottom: -2px;
+    color: var(--text-color);
+    padding-left: 10px;
+}
+
+.arrivals-price span {
+    background-color: var(--white-color);
+    font-size: 1.6rem;
+}
+
+.arrivals-name {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}

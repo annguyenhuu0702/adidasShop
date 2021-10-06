@@ -12,7 +12,8 @@ html {
 :root {
     --text-color: #333;
     --white-color: #fff;
-    --text-hover-color: #787878;
+    --black-color: #000;
+    --dark-grey-color: #767677;
 }
 
 ::-webkit-scrollbar {

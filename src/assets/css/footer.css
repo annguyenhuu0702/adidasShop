@@ -2,6 +2,10 @@
     margin-top: 50px;
 }
 
+.footer-list {
+    padding-left: 0;
+}
+
 .footer-list__item h2 {
     font-size: 2rem;
     color: var(--text-color);
@@ -56,4 +60,34 @@
 
 .footer-bottom__list li a:hover {
     text-decoration: none;
+}
+
+.footer-newsletter {
+    width: 100%;
+    overflow: hidden;
+    color: #000;
+    background-color: #ede734;
+    margin: 40px 0;
+}
+
+.footer-newsletter-subscribe, .footer-newsletter-btn {
+    padding: 40px 0;
+}
+
+.footer-newsletter-subscribe h2 {
+    font-size: 2.6rem;
+}
+
+.footer-newsletter-btn button {
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    min-height: 50px;
+    padding: 0 40px;
+}
+
+.footer-newsletter-btn button:hover {
+    color: var(--dark-grey-color);
 }

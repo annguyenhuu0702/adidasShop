@@ -5,6 +5,22 @@ import "./../../assets/css/base.css";
 function Footer() {
   return (
     <footer className="footer">
+      <div className="footer-newsletter">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="footer-newsletter-subscribe">
+                <h2>ĐĂNG KÝ NHẬN THÔNG TIN CẬP NHẬT VÀ ƯU ĐÃI QUA EMAIL</h2>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="footer-newsletter-btn">
+                <button type="">ĐĂNG KÝ NHẬN BẢN TIN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="footer-list col-lg-12 d-flex">
