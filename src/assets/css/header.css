@@ -80,7 +80,7 @@
     font-weight: 500;
 }
 
-.menu-navigation .active {
+.menu-navigation.active a {
     color: #FFD700;
 }
 

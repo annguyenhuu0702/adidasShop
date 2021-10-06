@@ -1,0 +1,35 @@
+.page-man {
+    margin-top: 30px;
+}
+
+.banner-collection__img {
+    position: relative;
+}
+
+.banner-collection__content {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+.content__wrap h2 {
+    color: var(--black-color);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.content__wrap p {
+    color: var(--black-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.banner-design__img {
+    position: relative;
+}
+
+.banner-design__content {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
