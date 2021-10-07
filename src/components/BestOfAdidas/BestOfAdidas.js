@@ -51,7 +51,7 @@ function BestOfAdidas() {
               <div className="BOAdidas-item__img">
                 <img
                   className="w-100"
-                  src="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/cf7c13c86ebf4f219abea84901847f70_9366/S20274_00_plp_standard.jpg"
+                  src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/SUPERSTAR_DJen_FY1589_01_standard.jpg"
                   alt=""
                 />
               </div>

@@ -4,6 +4,7 @@ import "./../../assets/css/base.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 function Collection() {
   const settings = {
@@ -40,37 +41,40 @@ function Collection() {
       },
     ],
   };
+
   return (
     <div className="collection">
       <div className="container collection__wrap">
         <h2>WHAT'S HOT</h2>
         <Slider {...settings}>
-          <div className="collection-item__content">
-            <div className="collection-item">
-              <div className="collection-item__img">
-                <img
-                  className="w-100"
-                  src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/jeremy-scott-tc_tcm337-783642.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="collection-content">
-              <div className="collection-content__detail">
-                <div className="collection-item__name">
-                  <h3>JEREMY SCOTT CANDY FORUM</h3>
-                </div>
-                <div className="collection-item__tilte">
-                  <p>THE FORUM, DIPPED, AND GLAZED.</p>
+          <Link to="/jeremy-scott">
+            <div className="collection-item__content">
+              <div className="collection-item">
+                <div className="collection-item__img">
+                  <img
+                    className="w-100"
+                    src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/jeremy-scott-tc_tcm337-783642.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
-              <div className="collection-item__btn">
-                <button>
-                  <span>SHOP NOW</span>
-                </button>
+              <div className="collection-content">
+                <div className="collection-content__detail">
+                  <div className="collection-item__name">
+                    <h3>JEREMY SCOTT CANDY FORUM</h3>
+                  </div>
+                  <div className="collection-item__tilte">
+                    <p>THE FORUM, DIPPED, AND GLAZED.</p>
+                  </div>
+                </div>
+                <div className="collection-item__btn">
+                  <button>
+                    <span>SHOP NOW</span>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
           <div className="collection-item__content">
             <div className="collection-item">
               <div className="collection-item__img">
