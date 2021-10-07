@@ -51,3 +51,29 @@
     display: flex;
     gap: 20px;
 }
+
+.BOAdidas-content__name {
+    margin-top: 16px;
+}
+
+.BOAdidas-content__name span {
+    color: var(--black-color);
+    font-size: 1.6rem;
+}
+
+.BOAdidas-content__price {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    font-size: 1.4rem;
+}
+
+.BOAdidas-content__price span {
+    background-color: var(--white-color);
+}
+
+.BOAdidas-item__img img:hover {
+    transition: all 0.4s;
+    transform: translateY(-10px);
+    opacity: 1;
+}
