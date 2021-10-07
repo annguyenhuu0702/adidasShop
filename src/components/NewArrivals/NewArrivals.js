@@ -8,7 +8,6 @@ function NewArrivals() {
       <div className="container">
         <div className="newarrivals-title">
           <h2>NEW ARRIVALS</h2>
-          <h4>View all</h4>
         </div>
         <div className="row">
           <div className="col-lg-3 arrivals-item">

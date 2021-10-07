@@ -14,8 +14,9 @@ function Collection() {
     autoplaySpeed: 500,
   };
   return (
-    <div>
-      <div className="container collection">
+    <div className="collection">
+      <div className="container collection__wrap">
+        <h2>WHAT'S HOT</h2>
         <Slider {...settings}>
           <div className="collection-item">
             <img
@@ -48,28 +49,28 @@ function Collection() {
           <div className="collection-item">
             <img
               className="w-100"
-              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/jeremy-scott-tc_tcm337-783642.jpg"
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/running-fw21-adizero-september-launch-hp-teaser-carousel-gender-neutral-fallback-d_tcm337-720076.jpg"
               alt=""
             />
           </div>
           <div className="collection-item">
             <img
               className="w-100"
-              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/triple-black-tesaer_tcm337-784836.jpg"
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/football-fw21-manunited-home-hp-tc-1_tcm337-707619.jpg"
               alt=""
             />
           </div>
           <div className="collection-item">
             <img
               className="w-100"
-              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/super-tcc_tcm337-784863.png"
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/specialist-sport-fw21-Barricade_USOPEN-launch-hp-shoes-teaser-carousel_tcm337-730458.jpg"
               alt=""
             />
           </div>
           <div className="collection-item">
             <img
               className="w-100"
-              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/superstar-hp-teaser_tcm337-760318.jpg"
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/beige-launch-hp-glp-teaser-carousel-dual-global-d-m-t_tcm337-741960.jpg"
               alt=""
             />
           </div>

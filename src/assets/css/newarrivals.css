@@ -2,10 +2,6 @@
     margin-top: 40px;
 }
 
-.arrivals-item:hover {
-    border: 1px solid var(--black-color);
-}
-
 .newarrivals-title {
     display: flex;
     align-items: center;
@@ -27,6 +23,16 @@
 .newarrivals-title h4:hover {
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+.arrivals-item {
+    margin-bottom: 16px;
+}
+
+.arrivals-item:hover {
+    transition: all 0.4s;
+    opacity: 1;
+    transform: translateY(-10px);
 }
 
 .arrivals-img {
