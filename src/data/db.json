@@ -1,0 +1,179 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "JEREMY SCOTT CANDY FORUM",
+      "title": "THE FORUM, DIPPED, AND GLAZED.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/jeremy-scott-tc_tcm337-783642.jpg",
+      "type": "what-hot",
+      "path": "/Jeremy_scott"
+    },
+    {
+      "id": 2,
+      "name": "THE TRIPLE BLACK COLLECTION",
+      "title": "Sneakers to wear with everything.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/triple-black-tesaer_tcm337-784836.jpg",
+      "type": "what-hot",
+      "path": "/Triple_black_collection"
+    },
+    {
+      "id": 3,
+      "name": "Higher comfort with Supernova",
+      "title": "Define your ritual and burn more miles. Available in a new colourway.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/super-tcc_tcm337-784863.png",
+      "type": "what-hot",
+      "path": "/supernova"
+    },
+    {
+      "id": 4,
+      "name": "ONCE A SUPERSTAR, ALWAYS A SUPERSTAR",
+      "title": "Một thiết kế biểu tượng từ năm 1970, đây là di sản giày sneaker.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/superstar-hp-teaser_tcm337-760318.jpg",
+      "type": "what-hot",
+      "path": "/superstart-giay"
+    },
+    {
+      "id": 5,
+      "name": "FAST IS NOT ENOUGH",
+      "title": "Dòng giày adizero phá vỡ kỷ lục thế giới đã xuất hiện.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/running-fw21-adizero-september-launch-hp-teaser-carousel-gender-neutral-fallback-d_tcm337-720076.jpg",
+      "type": "what-hot",
+      "path": "/adizero-chay"
+    },
+    {
+      "id": 6,
+      "name": "PHONG CÁCH MANCHESTER",
+      "title": " Không giống bất kỳ câu lạc bộ nào khác. Mua bộ trang phục thi đấu sân nhà mới của Manchester United.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/football-fw21-manunited-home-hp-tc-1_tcm337-707619.jpg",
+      "type": "what-hot",
+      "path": "/manchester_united_fc"
+    },
+    {
+      "id": 7,
+      "name": "BARRICADE. CONTROL THE COURT",
+      "title": "Giày Barricade biểu tượng đã được cải tiến.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/specialist-sport-fw21-Barricade_USOPEN-launch-hp-shoes-teaser-carousel_tcm337-730458.jpg",
+      "type": "what-hot",
+      "path": "/quan_vot-giay"
+    },
+    {
+      "id": 8,
+      "name": "OUR TAKE ON TONAL",
+      "title": "  Chúng tôi đã mời gia đình adidas tại NYC để giới thiệu cảm nhận cá nhân về những gam màu vượt thời gian.",
+      "img": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/beige-launch-hp-glp-teaser-carousel-dual-global-d-m-t_tcm337-741960.jpg",
+      "type": "what-hot",
+      "path": "/be"
+    },
+    {
+      "id": 9,
+      "name": "SUPERTURF ADVENTURE SEAN WOTHERSPOON",
+      "price": 4000000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2925c48189484a86a968ad3900fb71a7_9366/SUPERTURF_ADVENTURE_SEAN_WOTHERSPOON_nau_GY8341_01_standard.jpg",
+      "type": "new-arrivals"
+    },
+    {
+      "id": 10,
+      "name": "Dép Bông adilette Jeremy Scott",
+      "price": 2200000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5d760566c0564750910dad2101822689_9366/Dep_Bong_adilette_Jeremy_Scott_trai_cam_Q46582_01_standard.jpg",
+      "type": "new-arrivals"
+    },
+    {
+      "id": 11,
+      "name": "Giày Forum Dipped Jeremy Scott",
+      "price": 4200000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/22a1a10d999e48b2a72aad0300034373_9366/Giay_Forum_Dipped_Jeremy_Scott_Multi_G54995_01_standard.jpg",
+      "type": "new-arrivals"
+    },
+    {
+      "id": 12,
+      "name": "Giày Forum Dipped Low Jeremy Scott",
+      "price": 4200000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1c3b3ad6d04d4aa7ae8aad03000b0f69_9366/Giay_Forum_Dipped_Low_Jeremy_Scott_Multi_GZ8818_01_standard.jpg",
+      "type": "new-arrivals"
+    },
+    {
+      "id": 13,
+      "name": "Trefoil Liner Socks 3 Pairs",
+      "price": 400000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e87fed989ff94fbfa6afa849018479ae_9366/3_djoi_tat_Trefoil_Liner_trang_S20273_03_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 14,
+      "name": "Ultraboost 21 Shoes",
+      "price": 5000000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0fca47a779cb41809a63ad2101678c9a_9366/Giay_UltraBoost_21_trang_S23869_01_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 15,
+      "name": "Graphic Tee",
+      "price": 750000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/082ee1a1e75f4cd6a704acfa014afb80_9366/Ao_Thun_Graphic_DJen_GU1476_21_model.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 16,
+      "name": "No-Show Socks 3 Pairs",
+      "price": 350000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/cfe006ad99f145f7b678a9d300adc430_9366/Bo_ba_djoi_tat_an_DJen_DZ9416_03_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 17,
+      "name": "Adicolor Backpack",
+      "price": 950000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/abe3a78ccfe34bacb6d0ad5600ee3f3a_9366/Ba_Lo_Adicolor_DJen_H35596_01_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 18,
+      "name": "Low-Cut Socks 6 Pairs",
+      "price": 450000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/76066829697041608de0a9de0129affc_9366/Bo_6_djoi_tat_co_ngan_Xam_DZ9407_03_standard.jpg"
+    },
+    {
+      "id": 19,
+      "name": "adidas Sportswear Woven 3-Stripes Track Top",
+      "price": 1190000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d0ba62494528475ea46daca7012e3b46_9366/Track_Top_3_Soc_Vai_Det_adidas_Sportswear_trai_cam_GL5681_21_model.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 20,
+      "name": "3-Stripes Leggings",
+      "price": 800000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c008ade358794be8b742aa4e01477736_9366/Quan_legging_3_Soc_DJen_ED7820_01_laydown.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 21,
+      "name": "Adicolor Branded Webbing Waist Bag",
+      "price": 650000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d1b473c9fe624bbd87a9ad2d00a388fd_9366/Tui_DJeo_Hong_Logo_Adicolor_DJen_H35587_01_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 22,
+      "name": "Endurance Packing System Shoe Bag",
+      "price": 210000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/dfb7acdf7a6d4026b20bac5d01654736_9366/Tui_djung_giay_Endurance_Packing_System_DJen_GL8628_01_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 23,
+      "name": "Superstar Shoes",
+      "price": 2040000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/SUPERSTAR_DJen_FY1589_01_standard.jpg",
+      "type": "best-of-adidas"
+    },
+    {
+      "id": 24,
+      "name": "Superstar Shoes",
+      "price": 2040000,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/6abed98d929146dda047ab96015d8a07_9366/SUPERSTAR_trang_FY1588_01_standard.jpg",
+      "type": "best-of-adidas"
+    }
+  ]
+}
