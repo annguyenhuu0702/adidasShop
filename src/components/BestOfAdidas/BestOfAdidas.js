@@ -71,7 +71,7 @@ function BestOfAdidas(props) {
     return result;
   };
   return (
-    <div className="BOAdidas">
+    <section className="BOAdidas">
       <div className="container BOAdidas__wrap">
         <h2>BEST OF ADIDAS</h2>
         <Slider {...settings}>
@@ -232,7 +232,7 @@ function BestOfAdidas(props) {
           </div> */}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 }
 

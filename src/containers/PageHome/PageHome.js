@@ -12,6 +12,7 @@ function PageHome() {
     dispatch(dataActions.actFetchDataRequest());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
   const data = useSelector((state) => state.allData.allData);
 
   // filter data collection
@@ -36,7 +37,7 @@ function PageHome() {
   }, [data]);
 
   return (
-    <div>
+    <div className="page-home">
       <Banner />
       <Collection collection={collection} />
       <NewArrivals arrivals={arrivals} />

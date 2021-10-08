@@ -28,7 +28,7 @@ function NewArrivals(props) {
     return result;
   };
   return (
-    <div className="newarrivals">
+    <section className="newarrivals">
       <div className="container">
         <div className="newarrivals-title">
           <h2>NEW ARRIVALS</h2>
@@ -97,7 +97,7 @@ function NewArrivals(props) {
           </div> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

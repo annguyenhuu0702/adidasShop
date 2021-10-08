@@ -15,7 +15,7 @@ const routes = [
   {
     path: "/",
     exact: true,
-    main: ({ match, history }) => <PageHome />,
+    main: ({ match, history }) => <PageHome match={match} history={history} />,
   },
   {
     path: "/nam",
