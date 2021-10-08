@@ -19,7 +19,6 @@ function PageHome() {
   useEffect(() => {
     const newCollection = data.filter((x) => x.type === "what-hot");
     setCollection(newCollection);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   // filter data newarrivals
@@ -35,10 +34,6 @@ function PageHome() {
     const newBOAdidas = data.filter((item) => item.type === "best-of-adidas");
     setBOAdidas(newBOAdidas);
   }, [data]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <div>

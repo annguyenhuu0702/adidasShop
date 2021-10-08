@@ -97,6 +97,7 @@ function Header() {
                   />
                 </Link>
                 <div className="bottom__menu">
+                  {showMenu(menus)}
                   {/* <div className="menu-navigation active">
                     <a href=" ">Trang chủ</a>
                   </div>
@@ -109,7 +110,6 @@ function Header() {
                   <div className="menu-navigation">
                     <a href=" ">Trẻ em</a>
                   </div> */}
-                  {showMenu(menus)}
                 </div>
                 <div className="bottom__right-side-menu">
                   <div className="search__input-wrapper">
