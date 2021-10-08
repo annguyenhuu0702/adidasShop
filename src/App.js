@@ -1,5 +1,6 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import routes from "./routes";
 
@@ -22,6 +23,7 @@ function App() {
   };
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         {showContentMenus(routes)}
