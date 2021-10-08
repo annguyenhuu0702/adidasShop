@@ -4,8 +4,9 @@ import "./../../assets/css/bestOfAdidas.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { castToVND } from "./../../shared/index";
 
-function BestOfAdidas() {
+function BestOfAdidas(props) {
   const settings = {
     arrows: true,
     infinite: false,
@@ -41,12 +42,41 @@ function BestOfAdidas() {
       },
     ],
   };
+
+  const { BOAdidas } = props;
+  const showBestOfAdidas = () => {
+    let result = null;
+    if (BOAdidas.length > 0) {
+      result = BOAdidas.map((item) => {
+        const { id, img, name, price } = item;
+        return (
+          <div className="BOAdidas-item__content" key={id}>
+            <div className="BOAdidas-item">
+              <div className="BOAdidas-item__img">
+                <img className="w-100" src={img} alt="" />
+              </div>
+              <div className="BOAdidas-content__price">
+                <span>{castToVND(price)}</span>
+              </div>
+            </div>
+            <div className="BOAdidas-content">
+              <div className="BOAdidas-content__name">
+                <span>{name}</span>
+              </div>
+            </div>
+          </div>
+        );
+      });
+    }
+    return result;
+  };
   return (
     <div className="BOAdidas">
       <div className="container BOAdidas__wrap">
         <h2>BEST OF ADIDAS</h2>
         <Slider {...settings}>
-          <div className="BOAdidas-item__content">
+          {showBestOfAdidas()}
+          {/* <div className="BOAdidas-item__content">
             <div className="BOAdidas-item">
               <div className="BOAdidas-item__img">
                 <img
@@ -199,7 +229,7 @@ function BestOfAdidas() {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </div>

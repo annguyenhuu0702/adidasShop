@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "./../../components/Banner/Banner";
 import Collection from "../../components/Collection/Collection";
 import NewArrivals from "../../components/NewArrivals/NewArrivals";
@@ -13,12 +13,35 @@ function PageHome() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const data = useSelector((state) => state.allData.allData);
+
+  // filter data collection
+  const [collection, setCollection] = useState(data);
+  useEffect(() => {
+    const newCollection = data.filter((x) => x.type === "what-hot");
+    setCollection(newCollection);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
+
+  // filter data newarrivals
+  const [arrivals, setArrival] = useState(data);
+  useEffect(() => {
+    const newArrival = data.filter((item) => item.type === "new-arrivals");
+    setArrival(newArrival);
+  }, [data]);
+
+  // filter data best of adidas
+  const [BOAdidas, setBOAdidas] = useState(data);
+  useEffect(() => {
+    const newBOAdidas = data.filter((item) => item.type === "best-of-adidas");
+    setBOAdidas(newBOAdidas);
+  }, [data]);
+
   return (
     <div>
       <Banner />
-      <Collection data={data} />
-      <NewArrivals />
-      <BestOfAdidas />
+      <Collection collection={collection} />
+      <NewArrivals arrivals={arrivals} />
+      <BestOfAdidas BOAdidas={BOAdidas} />
     </div>
   );
 }

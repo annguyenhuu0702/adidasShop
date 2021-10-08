@@ -1,8 +1,32 @@
 import React from "react";
 import "../../assets/css/base.css";
 import "../../assets/css/newarrivals.css";
+import { castToVND } from "../../shared";
 
-function NewArrivals() {
+function NewArrivals(props) {
+  const { arrivals } = props;
+  const showNewArrivals = () => {
+    let result = null;
+    if (arrivals.length > 0) {
+      result = arrivals.map((item) => {
+        const { id, name, img, price } = item;
+        return (
+          <div className="col-lg-3 arrivals-item" key={id}>
+            <div className="arrivals-img">
+              <img className="w-100" src={img} alt="" />
+              <div className="arrivals-price">
+                <span>{castToVND(price)}</span>
+              </div>
+            </div>
+            <div className="arrivals-name">
+              <span>{name}</span>
+            </div>
+          </div>
+        );
+      });
+    }
+    return result;
+  };
   return (
     <div className="newarrivals">
       <div className="container">
@@ -10,7 +34,8 @@ function NewArrivals() {
           <h2>NEW ARRIVALS</h2>
         </div>
         <div className="row">
-          <div className="col-lg-3 arrivals-item">
+          {showNewArrivals()}
+          {/* <div className="col-lg-3 arrivals-item">
             <div className="arrivals-img">
               <img
                 className="w-100"
@@ -69,7 +94,7 @@ function NewArrivals() {
             <div className="arrivals-name">
               <span>SUPERTURF ADVENTURE SEAN WOTHERSPOON</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
