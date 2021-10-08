@@ -47,10 +47,10 @@ function BestOfAdidas(props) {
   const showBestOfAdidas = () => {
     let result = null;
     if (BOAdidas.length > 0) {
-      result = BOAdidas.map((item) => {
-        const { id, img, name, price } = item;
+      result = BOAdidas.map((item, index) => {
+        const { img, name, price } = item;
         return (
-          <div className="BOAdidas-item__content" key={id}>
+          <div className="BOAdidas-item__content" key={index}>
             <div className="BOAdidas-item">
               <div className="BOAdidas-item__img">
                 <img className="w-100" src={img} alt="" />

@@ -46,10 +46,14 @@ function Collection(props) {
   const showCollection = () => {
     let result = null;
     if (collection.length > 0) {
-      result = collection.map((item) => {
-        const { id, img, name, title, path } = item;
+      result = collection.map((item, index) => {
+        const { img, name, title, path } = item;
         return (
-          <Link to={`/${path}`} className="collection-item__content" key={id}>
+          <Link
+            to={`/${path}`}
+            className="collection-item__content"
+            key={index}
+          >
             <div className="collection-item">
               <div className="collection-item__img">
                 <img className="w-100" src={img} alt="" />

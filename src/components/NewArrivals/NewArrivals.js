@@ -8,10 +8,10 @@ function NewArrivals(props) {
   const showNewArrivals = () => {
     let result = null;
     if (arrivals.length > 0) {
-      result = arrivals.map((item) => {
-        const { id, name, img, price } = item;
+      result = arrivals.map((item, index) => {
+        const { name, img, price } = item;
         return (
-          <div className="col-lg-3 arrivals-item" key={id}>
+          <div className="col-lg-3 arrivals-item" key={index}>
             <div className="arrivals-img">
               <img className="w-100" src={img} alt="" />
               <div className="arrivals-price">

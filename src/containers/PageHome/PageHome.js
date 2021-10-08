@@ -10,9 +10,7 @@ function PageHome() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(dataActions.actFetchDataRequest());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
+  }, [dispatch]);
   const data = useSelector((state) => state.allData.allData);
 
   // filter data collection

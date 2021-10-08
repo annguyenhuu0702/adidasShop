@@ -7,8 +7,7 @@ function JeremyScott() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(dataActions.actFetchDataRequest());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [dispatch]);
 
   const data = useSelector((state) => state.allData.allData);
 
@@ -22,10 +21,10 @@ function JeremyScott() {
   const showJeremyscottItem = () => {
     let result = null;
     if (item.length > 0) {
-      result = item.map((item) => {
-        const { id, name, img } = item;
+      result = item.map((item, index) => {
+        const { name, img } = item;
         return (
-          <div className="jeremyscott-item col-lg-3" key={id}>
+          <div className="jeremyscott-item col-lg-3" key={index}>
             <div className="item-img">
               <img className="w-100" src={img} alt="" />
             </div>
