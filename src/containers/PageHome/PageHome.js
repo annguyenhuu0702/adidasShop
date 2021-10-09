@@ -16,21 +16,23 @@ function PageHome() {
   // filter data collection
   const [collection, setCollection] = useState(data);
   useEffect(() => {
-    const newCollection = data.filter((x) => x.type === "what-hot");
+    const newCollection = data.filter((x) => x.classify === "what-hot");
     setCollection(newCollection);
   }, [data]);
 
   // filter data newarrivals
   const [arrivals, setArrival] = useState(data);
   useEffect(() => {
-    const newArrival = data.filter((item) => item.type === "new-arrivals");
+    const newArrival = data.filter((item) => item.classify === "new-arrivals");
     setArrival(newArrival);
   }, [data]);
 
   // filter data best of adidas
   const [BOAdidas, setBOAdidas] = useState(data);
   useEffect(() => {
-    const newBOAdidas = data.filter((item) => item.type === "best-of-adidas");
+    const newBOAdidas = data.filter(
+      (item) => item.classify === "best-of-adidas"
+    );
     setBOAdidas(newBOAdidas);
   }, [data]);
 

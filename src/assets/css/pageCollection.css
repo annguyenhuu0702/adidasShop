@@ -1,0 +1,40 @@
+.jeremyscott {
+    /* margin-top: 80px; */
+    border-top: 1px solid #ccc;
+}
+
+.jeremyscott-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.jeremyscott h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.item-img {
+    position: relative;
+}
+
+.item-price {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    background-color: var(--white-color);
+    font-size: 1.4rem;
+    color: var(--black-color);
+    padding: 0 6px;
+}
+
+.item-action__name {
+    font-size: 1.6rem;
+    color: var(--black-color);
+    margin-top: 10px;
+}
+
+.item-action__style {
+    font-size: 1.2rem;
+    color: var(--dark-grey-color);
+}
