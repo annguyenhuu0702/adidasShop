@@ -1,5 +1,6 @@
+/* bộ sưu tập jeremyscott */
+
 .jeremyscott {
-    /* margin-top: 80px; */
     border-top: 1px solid #ccc;
 }
 
@@ -16,6 +17,12 @@
 
 .item-img {
     position: relative;
+}
+
+.item-img:hover {
+    transition: all 0.4s;
+    transform: translateY(-10px);
+    opacity: 1;
 }
 
 .item-price {
@@ -37,4 +44,74 @@
 .item-action__style {
     font-size: 1.2rem;
     color: var(--dark-grey-color);
+}
+
+/* bộ sưu tập tripleblack */
+
+.tripleblack-banner__img {
+    min-height: 308px;
+    position: relative;
+}
+
+.tripleblack-banner__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.tripleblack-banne__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tripleblack {
+    border-top: 1px solid #ccc;
+}
+
+.tripleblack h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.tripleblack-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/* bộ sưu tập supernova */
+
+.supernova {
+    border-top: 1px solid #ccc;
+}
+
+.supernova h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.supernova-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/* bộ sưu tập superstart giày */
+
+.superstart {
+    border-top: 1px solid #ccc;
+}
+
+.superstart h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.superstart-item {
+    padding-left: 0;
+    margin: 20px 0;
 }

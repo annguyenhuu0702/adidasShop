@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./../../assets/css/pageCollection.css";
 import * as dataActions from "./../../redux/actions/index";
+import { castToVND } from "./../../shared/index";
 
 function SuperNova() {
   const dispatch = useDispatch();
@@ -22,15 +23,21 @@ function SuperNova() {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
-        const { name, img } = item;
+        const { name, img, style, price } = item;
         return (
           <div className="supernova-item col-lg-3" key={index}>
             <div className="item-img">
               <img className="w-100" src={img} alt="" />
+              <div className="item-price">
+                <span> {castToVND(price)} </span>
+              </div>
             </div>
             <div className="item-action">
               <div className="item-action__name">
                 <span>{name}</span>
+              </div>
+              <div className="item-action__style">
+                <span>{style}</span>
               </div>
             </div>
           </div>
