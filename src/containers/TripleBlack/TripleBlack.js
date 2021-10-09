@@ -18,7 +18,6 @@ function TripleBlack() {
       (item) => item.collection === "triple_black_collection"
     );
     setItem(newItem);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   const showTripleBlack = () => {
@@ -59,6 +58,10 @@ function TripleBlack() {
           />
           <div className="tripleblack-banne__content">
             <h2>NGẪU HỨNG NHỊP ĐIỆU</h2>
+            <p>
+              Bộ sưu tập Giày Tập Luyện Triple Black hoà hợp <br /> với mọi thứ.
+              Thoả sức sáng tạo.
+            </p>
           </div>
         </div>
       </div>

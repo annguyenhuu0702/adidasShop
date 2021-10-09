@@ -49,7 +49,7 @@
 /* bộ sưu tập tripleblack */
 
 .tripleblack-banner__img {
-    min-height: 308px;
+    min-height: 30vh;
     position: relative;
 }
 
@@ -63,8 +63,20 @@
 
 .tripleblack-banne__content {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 60px;
+    left: 124px;
+}
+
+.tripleblack-banner__img .tripleblack-banne__content h2 {
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.tripleblack-banne__content p {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .tripleblack {
@@ -112,6 +124,105 @@
 }
 
 .superstart-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/* bộ sưu tập adizero chạy */
+
+.adizero {
+    border-top: 1px solid #ccc;
+}
+
+.adizero h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.adizero-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/* bộ sưu tập manchester united FC */
+
+.manchester {
+    border-top: 1px solid #ccc;
+}
+
+.manchester h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.manchester-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+/* bộ sưu tập quần vợt giày */
+
+.quanvotgiay {
+    border-top: 1px solid #ccc;
+}
+
+.quanvotgiay h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.quanvotgiay-item {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.quanvotgiay-banner__img {
+    position: relative;
+    min-height: 30vh;
+}
+
+.quanvotgiay-banner__img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.quanvotgiay-banner__content {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+
+.quanvotgiay-banner__content h2 {
+    color: var(--black-color);
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.quanvotgiay-banner__content p {
+    color: var(--black-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* bộ sưu tập be */
+
+.be {
+    border-top: 1px solid #ccc;
+}
+
+.be h2 {
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.be-item {
     padding-left: 0;
     margin: 20px 0;
 }

@@ -16,7 +16,6 @@ function JeremyScott() {
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "jeremy-scott");
     setItem(newItem);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   const showJeremyscottItem = () => {

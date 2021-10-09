@@ -51,7 +51,7 @@ function SuperStart() {
     <div className="superstart">
       <div className="container">
         <div className="row">
-          <h2>SUPERSTART GIÀY</h2>
+          <h2>SUPERSTAR · GIÀY</h2>
           <div className="col-lg-12 d-flex">
             <div className="row">{showSuperStart()}</div>
           </div>
