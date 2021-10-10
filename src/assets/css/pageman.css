@@ -8,7 +8,7 @@
 
 .banner-collection__content {
     position: absolute;
-    top: 120px;
+    top: 90px;
     left: 200px;
 }
 
@@ -32,4 +32,92 @@
     position: absolute;
     top: 270px;
     left: 200px;
+}
+
+.content__button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content__button a {
+    text-decoration: none;
+}
+
+.content__button button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding: 5px 21px;
+    background: var(--black-color);
+    color: var(--white-color);
+    min-height: 50px;
+    position: relative;
+}
+
+.content__button button:hover {
+    color: #ccc;
+    transition: all 0.4s;
+}
+
+.content__button button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+    bottom: -3px;
+    left: 3px;
+    height: 3px;
+    width: 100%;
+}
+
+.content__button button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid var(--black-color);
+    border-top: 1px solid var(--black-color);
+    top: 3px;
+    right: -3px;
+    width: 3px;
+    height: 100%;
+}
+
+.content__button button span {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.content__button button i {
+    font-size: 2rem;
+}
+
+.page-man__menu {
+    margin: 60px 0;
+}
+
+.menu__wrap {
+    background: #e9ecef;
+}
+
+.menu__wrap ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.menu__wrap ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.menu__wrap ul li a {
+    font-size: 1.4rem;
+    color: var(--black-color);
+    text-decoration: none;
 }
