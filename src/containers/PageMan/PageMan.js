@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../assets/css/base.css";
-import "./../../assets/css/pageman.css";
+import "./../../assets/css/pageMWC.css";
 import { Link } from "react-router-dom";
 
 function PageMan() {
@@ -39,19 +39,19 @@ function PageMan() {
           <div className="menu__wrap">
             <ul>
               <li>
-                <a href=" ">HOME</a>
+                <Link to="/">HOME</Link>
               </li>
               <li>
-                <a href=" ">GIÀY</a>
+                <Link to="/giay-nam">GIÀY</Link>
               </li>
               <li>
-                <a href=" ">QUẦN ÁO</a>
+                <Link to="/quan-ao-nam">QUẦN ÁO</Link>
               </li>
               <li>
-                <a href=" ">PHỤ KIỆN</a>
+                <Link to="/phu-kien-nam">PHỤ KIỆN</Link>
               </li>
               <li>
-                <a href=" ">TẤT CẢ SẢN PHẨM</a>
+                <Link to="/san-pham-nam">TẤT CẢ SẢN PHẨM</Link>
               </li>
             </ul>
           </div>

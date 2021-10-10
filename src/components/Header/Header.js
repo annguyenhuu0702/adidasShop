@@ -96,21 +96,7 @@ function Header() {
                     alt=""
                   />
                 </Link>
-                <div className="bottom__menu">
-                  {showMenu(menus)}
-                  {/* <div className="menu-navigation active">
-                    <a href=" ">Trang chủ</a>
-                  </div>
-                  <div className="menu-navigation">
-                    <a href=" ">Nam</a>
-                  </div>
-                  <div className="menu-navigation">
-                    <a href=" ">Nữ</a>
-                  </div>
-                  <div className="menu-navigation">
-                    <a href=" ">Trẻ em</a>
-                  </div> */}
-                </div>
+                <div className="bottom__menu">{showMenu(menus)}</div>
                 <div className="bottom__right-side-menu">
                   <div className="search__input-wrapper">
                     <form>

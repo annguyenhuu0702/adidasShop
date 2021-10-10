@@ -10,6 +10,10 @@ import QuanVotGiay from "./containers/QuanVotGiay/QuanVotGiay";
 import SuperNova from "./containers/SuperNova/SuperNova";
 import SuperStart from "./containers/SuperStart/SuperStart";
 import TripleBlack from "./containers/TripleBlack/TripleBlack";
+import MenShoes from "./containers/MenShoes/Menshoes";
+import MenClothes from "./containers/MenClothes/MenClothes";
+import MenAccessories from "./containers/MenAccessories/MenAccessories";
+import ProductMen from "./containers/AProductMen/ProductMen";
 
 const routes = [
   {
@@ -83,6 +87,32 @@ const routes = [
     path: "/be",
     exact: false,
     main: ({ match, history }) => <Be match={match} history={history} />,
+  },
+  {
+    path: "/giay-nam",
+    exact: false,
+    main: ({ match, history }) => <MenShoes match={match} history={history} />,
+  },
+  {
+    path: "/quan-ao-nam",
+    exact: false,
+    main: ({ match, history }) => (
+      <MenClothes match={match} history={history} />
+    ),
+  },
+  {
+    path: "/phu-kien-nam",
+    exact: false,
+    main: ({ match, history }) => (
+      <MenAccessories match={match} history={history} />
+    ),
+  },
+  {
+    path: "/san-pham-nam",
+    exact: false,
+    main: ({ match, history }) => (
+      <ProductMen match={match} history={history} />
+    ),
   },
 ];
 

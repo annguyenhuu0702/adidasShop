@@ -1,0 +1,42 @@
+.MClothes {
+    margin: 40px 0;
+}
+
+/* quần áo nam */
+
+.clothes-item {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.Pitem__img {
+    position: relative;
+}
+
+.Pitem__img:hover {
+    transition: all 0.4s;
+    transform: translateY(-10px)
+}
+
+.Pitem__price {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+.Pitem__price span {
+    font-size: 1.4rem;
+    background: var(--white-color);
+    padding: 0 10px;
+}
+
+.Pitem__action-name {
+    font-size: 1.6rem;
+    color: var(--black-color);
+    margin-top: 10px;
+}
+
+.Ptem-action__style span {
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
