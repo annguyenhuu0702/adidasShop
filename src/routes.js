@@ -14,6 +14,10 @@ import MenShoes from "./containers/MenShoes/Menshoes";
 import MenClothes from "./containers/MenClothes/MenClothes";
 import MenAccessories from "./containers/MenAccessories/MenAccessories";
 import ProductMen from "./containers/AProductMen/ProductMen";
+import WomenShoes from "./containers/WomenShoes/WomenShoes";
+import WomenClothes from "./containers/WomenClothes/WomenClothes";
+import WomenAccessories from "./containers/WomenAccessories/WomenAccessories";
+import ProductWomen from "./containers/AProductWomen/ProductWomen";
 
 const routes = [
   {
@@ -112,6 +116,34 @@ const routes = [
     exact: false,
     main: ({ match, history }) => (
       <ProductMen match={match} history={history} />
+    ),
+  },
+  {
+    path: "/giay-nu",
+    exact: false,
+    main: ({ match, history }) => (
+      <WomenShoes match={match} history={history} />
+    ),
+  },
+  {
+    path: "/quan-ao-nu",
+    exact: false,
+    main: ({ match, history }) => (
+      <WomenClothes match={match} history={history} />
+    ),
+  },
+  {
+    path: "/phu-kien-nu",
+    exact: false,
+    main: ({ match, history }) => (
+      <WomenAccessories match={match} history={history} />
+    ),
+  },
+  {
+    path: "/san-pham-nu",
+    exact: false,
+    main: ({ match, history }) => (
+      <ProductWomen match={match} history={history} />
     ),
   },
 ];

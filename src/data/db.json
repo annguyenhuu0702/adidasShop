@@ -607,20 +607,10 @@
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3373d7a437dd4e6688ccad0800cb1291_9366/Giay_NMD_R1_Primeblue_DJen_GZ9256_02_standard_hover.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a3f33ca3c24d4df8a064ad0800cb196d_9366/Giay_NMD_R1_Primeblue_DJen_GZ9256_03_standard.jpg"
       ],
-      "size": [
-        "4 UK",
-        "5 UK",
-        "6 UK",
-        "7 UK",
-        "8 UK",
-        "9 UK",
-        "10 UK",
-        "11 UK",
-        "12 UK"
-      ],
+      "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "triple_black_collection",
-      "style": "Nam Originals",
-      "status": "nam",
+      "style": "Nữ Originals",
+      "status": "nu",
       "type": "giay-nu"
     },
     {

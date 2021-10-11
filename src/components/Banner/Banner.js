@@ -1,6 +1,7 @@
 import React from "react";
 import "./../../assets/css/banner.css";
 import "./../../assets/css/base.css";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -24,10 +25,10 @@ function Banner() {
             <div className="content-item">
               <div className="item">
                 <div className="item-choice">
-                  <a href=" ">Mua đồ nữ</a>
+                  <Link to="/san-pham-nu">Mua đồ nữ</Link>
                 </div>
                 <div>
-                  <a href=" ">Mua đồ nam</a>
+                  <Link to="/san-pham-nam">Mua đồ nam</Link>
                 </div>
               </div>
             </div>
