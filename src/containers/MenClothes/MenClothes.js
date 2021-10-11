@@ -3,6 +3,7 @@ import "./../../assets/css/product.css";
 import { useSelector, useDispatch } from "react-redux";
 import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function MenClothes() {
   const dispatch = useDispatch();
@@ -47,6 +48,34 @@ function MenClothes() {
   };
   return (
     <div className="MClothes">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 header-top__wrap">
+            <div className="breadcrumb__container">
+              <div className="breadcrumbs__menu">
+                <ul>
+                  <li>
+                    <Link to="/">Trang chủ</Link>
+                    <span>/</span>
+                  </li>
+                  <li>
+                    <Link to="/nam">Nam</Link>
+                    <span>/</span>
+                  </li>
+                  <li>
+                    <span>Quần áo</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="header">
+              <div className="header-title">
+                <h2>NAM · QUẦN ÁO</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-12">

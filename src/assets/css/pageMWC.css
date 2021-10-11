@@ -1,5 +1,13 @@
-.page-man {
+.page-man, .page-women {
     margin-top: 30px;
+}
+
+.page-man__menu, .page-women__menu {
+    margin: 60px 0;
+}
+
+.menu__title h2 {
+    margin-bottom: 10px;
 }
 
 .banner-collection__img {
@@ -94,10 +102,6 @@
 
 .content__button button i {
     font-size: 2rem;
-}
-
-.page-man__menu {
-    margin: 60px 0;
 }
 
 .menu__wrap {

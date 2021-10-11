@@ -12,7 +12,6 @@ function BestOfAdidas(props) {
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplaySpeed: 500,
     dots: true,
     responsive: [
       {

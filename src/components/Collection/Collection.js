@@ -12,7 +12,6 @@ function Collection(props) {
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplaySpeed: 500,
     responsive: [
       {
         breakpoint: 1024,

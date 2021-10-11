@@ -1,12 +1,13 @@
-.MClothes {
-    margin: 40px 0;
-}
-
 /* quần áo nam */
+
+.MClothes {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
 
 .clothes-item {
     padding-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .Pitem__img {
@@ -39,4 +40,76 @@
 .Ptem-action__style span {
     font-size: 1.4rem;
     color: var(--black-color);
+}
+
+/* giày nam */
+
+.MShoes {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+.shoes-item {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.header-top__wrap {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.breadcrumbs__menu ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.breadcrumbs__menu ul li {
+    list-style: none;
+}
+
+.breadcrumbs__menu ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.6rem;
+}
+
+.breadcrumbs__menu ul li a:hover {
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
+.breadcrumbs__menu ul li span {
+    margin: 0 6px;
+    font-size: 1.6rem;
+}
+
+.header-title h2 {
+    padding-left: 0;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+/* phụ kiện nam */
+
+.MAccessories {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+.accessories-item {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+/* tất cả sản phẩm nam */
+
+.product-men {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+.product__men-item {
+    padding-left: 0;
+    margin-bottom: 30px;
 }
