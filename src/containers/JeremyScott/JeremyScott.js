@@ -52,7 +52,7 @@ function JeremyScott() {
   };
 
   return (
-    <div className="jeremyscott">
+    <section className="jeremyscott">
       <div className="container">
         <div className="row">
           <h2>JEREMY SCOTT</h2>
@@ -61,7 +61,7 @@ function JeremyScott() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

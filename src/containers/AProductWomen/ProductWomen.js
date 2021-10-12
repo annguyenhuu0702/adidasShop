@@ -15,7 +15,7 @@ function ProductWomen() {
 
   const [item, setItem] = useState(data);
   useEffect(() => {
-    const newItem = data.filter((item) => item.status === "nu");
+    const newItem = data.filter((item) => item.status === "Nữ");
     setItem(newItem);
   }, [data]);
 
@@ -51,7 +51,7 @@ function ProductWomen() {
     return result;
   };
   return (
-    <div className="product-women">
+    <section className="product-women">
       <div className="container">
         <div className="row">
           <div className="col-12 header-top__wrap">
@@ -83,7 +83,7 @@ function ProductWomen() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

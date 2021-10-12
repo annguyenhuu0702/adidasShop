@@ -48,7 +48,7 @@ function Be() {
   };
 
   return (
-    <div className="be">
+    <section className="be">
       <div className="container">
         <div className="row">
           <h2>BE</h2>
@@ -57,7 +57,7 @@ function Be() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

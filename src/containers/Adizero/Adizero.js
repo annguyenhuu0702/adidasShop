@@ -52,7 +52,7 @@ function Adizero() {
   };
 
   return (
-    <div className="adizero">
+    <section className="adizero">
       <div className="container">
         <div className="row">
           <h2>ADIZERO · CHẠY</h2>
@@ -61,7 +61,7 @@ function Adizero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

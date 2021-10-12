@@ -52,7 +52,7 @@ function SuperNova() {
   };
 
   return (
-    <div className="supernova">
+    <section className="supernova">
       <div className="container">
         <div className="row">
           <h2>SUPERNOVA</h2>
@@ -61,7 +61,7 @@ function SuperNova() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

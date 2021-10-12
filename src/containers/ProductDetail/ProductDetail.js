@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./../../assets/css/productDetail.css";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function ProductDetail() {
   const { productId } = useParams();
@@ -23,10 +24,27 @@ function ProductDetail() {
   }, []);
 
   const product = useSelector((state) => state.product);
-  const { style, name, img, price, size } = product;
+  const { style, name, img, price, size, status, path } = product;
+
+  const [changeSize, setChangeSize] = useState();
   return (
-    <div className="page-product__detail">
+    <section className="page-product__detail">
       <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="product-detail__menu">
+              <ul className="d-flex">
+                <li>
+                  <Link to="/">Trang chủ</Link>
+                  <span>/</span>
+                </li>
+                <li>
+                  <Link to={`${path}`}>{status}</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col-lg-7">
             <div className="product-detail__left">
@@ -46,17 +64,33 @@ function ProductDetail() {
               <div className="detail-right__price">
                 <span>{castToVND(price)}</span>
               </div>
-              <div className="detail-right__size">
-                <div>
-                  <span>Chọn size</span>
+              {size?.length > 0 ? (
+                <div className="detail-right__size">
+                  <div>
+                    <span>Chọn size</span>
+                  </div>
+                  <div className="right-size__box">
+                    {size?.map((size, index) => {
+                      return (
+                        <button
+                          className={
+                            changeSize === size
+                              ? "right-size__box-btn active"
+                              : "right-size__box-btn"
+                          }
+                          onClick={() => setChangeSize(size)}
+                          key={index}
+                        >
+                          {size}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-                <div className="right-size__box">
-                  {size?.map((item, index) => {
-                    return <button key={index}>{item}</button>;
-                  })}
-                </div>
-              </div>
-              <div className="detai-right__btn">
+              ) : (
+                ""
+              )}
+              <div className="detai-right__btn-add-cart">
                 <button>
                   <span>Thêm vào giỏ hàng</span>
                 </button>
@@ -82,7 +116,7 @@ function ProductDetail() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

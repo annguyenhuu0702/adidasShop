@@ -52,7 +52,7 @@ function SuperStart() {
   };
 
   return (
-    <div className="superstart">
+    <section className="superstart">
       <div className="container">
         <div className="row">
           <h2>SUPERSTAR · GIÀY</h2>
@@ -61,7 +61,7 @@ function SuperStart() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -37,12 +37,12 @@ function PageHome() {
   }, [data]);
 
   return (
-    <div className="page-home">
+    <section className="page-home">
       <Banner />
       <Collection collection={collection} />
       <NewArrivals arrivals={arrivals} />
       <BestOfAdidas BOAdidas={BOAdidas} />
-    </div>
+    </section>
   );
 }
 

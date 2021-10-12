@@ -52,7 +52,7 @@ function QuanVotGiay() {
   };
 
   return (
-    <div className="quanvotgiay">
+    <section className="quanvotgiay">
       <div className="quanvotgiay-banner">
         <div className="quanvotgiay-banner__img">
           <img
@@ -76,7 +76,7 @@ function QuanVotGiay() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

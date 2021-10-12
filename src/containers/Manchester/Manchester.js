@@ -54,7 +54,7 @@ function Manchester() {
   };
 
   return (
-    <div className="manchester">
+    <section className="manchester">
       <div className="container">
         <div className="row">
           <h2>MANCHESTER UNITED FC</h2>
@@ -63,7 +63,7 @@ function Manchester() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

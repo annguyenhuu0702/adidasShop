@@ -54,7 +54,7 @@ function TripleBlack() {
   };
 
   return (
-    <div className="tripleblack">
+    <section className="tripleblack">
       <div className="tripleblack-banner">
         <div className="tripleblack-banner__img">
           <img
@@ -78,7 +78,7 @@ function TripleBlack() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

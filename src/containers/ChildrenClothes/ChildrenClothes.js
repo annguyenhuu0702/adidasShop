@@ -51,7 +51,7 @@ function ChildrenClothes() {
     return result;
   };
   return (
-    <div className="CClothes">
+    <section className="CClothes">
       <div className="container">
         <div className="row">
           <div className="col-12 header-top__wrap">
@@ -87,7 +87,7 @@ function ChildrenClothes() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

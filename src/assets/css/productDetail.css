@@ -36,7 +36,7 @@
     margin: 10px 0;
 }
 
-.right-size__box button {
+.right-size__box-btn {
     background: var(--white-color);
     border-top: 1px solid rgb(233, 236, 239);
     border-right: 1px solid rgb(233, 236, 239);
@@ -51,7 +51,17 @@
     cursor: pointer;
 }
 
-.detai-right__btn button {
+.right-size__box-btn:hover {
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.right-size__box-btn.active {
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.detai-right__btn-add-cart button {
     margin-top: 10px;
     border: none;
     outline: none;
@@ -63,7 +73,7 @@
     font-weight: 500;
 }
 
-.detai-right__btn button:hover {
+.detai-right__btn-add-cart button:hover {
     color: var(--dark-grey-color);
     border: var(--dark-grey-color);
 }
@@ -80,4 +90,27 @@
 .detai-right__policy p a:hover {
     background: var(--black-color);
     color: var(--white-color);
+}
+
+.product-detail__menu ul {
+    padding-left: 0;
+}
+
+.product-detail__menu ul li {
+    list-style: none;
+}
+
+.product-detail__menu ul li a {
+    font-size: 1.8rem;
+    color: var(--black-color);
+}
+
+.product-detail__menu ul li span {
+    font-size: 1.4rem;
+    padding: 0 6px;
+}
+
+.product-detail__menu ul li a:hover {
+    color: var(--white-color);
+    background: var(--black-color);
 }

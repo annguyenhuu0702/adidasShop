@@ -50,7 +50,7 @@ function ChildrenAccessories() {
     return result;
   };
   return (
-    <div className="CAccessories">
+    <section className="CAccessories">
       <div className="container">
         <div className="row">
           <div className="col-12 header-top__wrap">
@@ -86,7 +86,7 @@ function ChildrenAccessories() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
