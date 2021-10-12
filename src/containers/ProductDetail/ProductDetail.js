@@ -6,6 +6,9 @@ import { useParams } from "react-router-dom";
 import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
 import { Link } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 function ProductDetail() {
   const { productId } = useParams();
@@ -23,10 +26,19 @@ function ProductDetail() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  //lấy data product từ store để render
   const product = useSelector((state) => state.product);
-  const { style, name, img, price, size, status, path } = product;
+  const { style, name, images, price, size, status, path } = product;
 
+  //active vào ô size được chọn
   const [changeSize, setChangeSize] = useState();
+
+  const settings = {
+    arrows: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <section className="page-product__detail">
       <div className="container">
@@ -49,7 +61,13 @@ function ProductDetail() {
           <div className="col-lg-7">
             <div className="product-detail__left">
               <div className="detail-left__img">
-                <img className="w-100" src={img} alt="" />
+                <Slider {...settings}>
+                  {images?.map((img, index) => {
+                    return (
+                      <img className="w-100" src={img} alt="" key={index} />
+                    );
+                  })}
+                </Slider>
               </div>
             </div>
           </div>
