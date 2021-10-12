@@ -1,8 +1,8 @@
-.page-man, .page-women {
+.page-man, .page-women, .page-children {
     margin-top: 30px;
 }
 
-.page-man__menu, .page-women__menu {
+.page-man__menu, .page-women__menu, .page-children__menu {
     margin: 60px 0;
 }
 

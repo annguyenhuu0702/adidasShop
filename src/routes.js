@@ -18,6 +18,10 @@ import WomenShoes from "./containers/WomenShoes/WomenShoes";
 import WomenClothes from "./containers/WomenClothes/WomenClothes";
 import WomenAccessories from "./containers/WomenAccessories/WomenAccessories";
 import ProductWomen from "./containers/AProductWomen/ProductWomen";
+import ChildrenShoes from "./containers/ChildrenShoes/ChildrenShoes";
+import ChildrenClothes from "./containers/ChildrenClothes/ChildrenClothes";
+import ChildrenAccessories from "./containers/ChildrenAccessories/ChildrenAccessories";
+import ProductChildren from "./containers/AProductChildren/ProductChildren";
 
 const routes = [
   {
@@ -144,6 +148,34 @@ const routes = [
     exact: false,
     main: ({ match, history }) => (
       <ProductWomen match={match} history={history} />
+    ),
+  },
+  {
+    path: "/giay-tre-em",
+    exact: false,
+    main: ({ match, history }) => (
+      <ChildrenShoes match={match} history={history} />
+    ),
+  },
+  {
+    path: "/quan-ao-tre-em",
+    exact: false,
+    main: ({ match, history }) => (
+      <ChildrenClothes match={match} history={history} />
+    ),
+  },
+  {
+    path: "/phu-kien-tre-em",
+    exact: false,
+    main: ({ match, history }) => (
+      <ChildrenAccessories match={match} history={history} />
+    ),
+  },
+  {
+    path: "/san-pham-tre-em",
+    exact: false,
+    main: ({ match, history }) => (
+      <ProductChildren match={match} history={history} />
     ),
   },
 ];

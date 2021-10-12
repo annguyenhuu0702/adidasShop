@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./../../assets/css/product.css";
 import { useSelector, useDispatch } from "react-redux";
-import * as dataActions from "./../../redux/actions/index";
-import { castToVND } from "./../../shared/index";
+import * as dataActions from "../../redux/actions/index";
+import { castToVND } from "../../shared/index";
 import { Link } from "react-router-dom";
 
-function Menshoes() {
+function Childrenshoes() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(dataActions.actFetchDataRequest());
@@ -15,10 +15,10 @@ function Menshoes() {
 
   const [item, setItem] = useState(data);
   useEffect(() => {
-    const newItem = data.filter((item) => item.type === "giay-nam");
+    const newItem = data.filter((item) => item.type === "giay-tre-em");
     setItem(newItem);
   }, [data]);
-  const showMenShoes = () => {
+  const showChildrenShoes = () => {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
@@ -46,7 +46,7 @@ function Menshoes() {
     return result;
   };
   return (
-    <section className="MShoes">
+    <section className="CShoes">
       <div className="container">
         <div className="row">
           <div className="col-12 header-top__wrap">
@@ -58,7 +58,7 @@ function Menshoes() {
                     <span>/</span>
                   </li>
                   <li>
-                    <Link to="/nam">Nam</Link>
+                    <Link to="/nam">Trẻ em</Link>
                     <span>/</span>
                   </li>
                   <li>
@@ -69,7 +69,7 @@ function Menshoes() {
             </div>
             <div className="header">
               <div className="header-title">
-                <h2>NAM · GIÀY</h2>
+                <h2>TRẺ EM · GIÀY</h2>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Menshoes() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="row">{showMenShoes()}</div>
+            <div className="row">{showChildrenShoes()}</div>
           </div>
         </div>
       </div>
@@ -86,4 +86,4 @@ function Menshoes() {
   );
 }
 
-export default Menshoes;
+export default Childrenshoes;

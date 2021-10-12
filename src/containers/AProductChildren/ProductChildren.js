@@ -5,7 +5,7 @@ import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
 import { Link } from "react-router-dom";
 
-function Menshoes() {
+function ProductChildren() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(dataActions.actFetchDataRequest());
@@ -15,16 +15,16 @@ function Menshoes() {
 
   const [item, setItem] = useState(data);
   useEffect(() => {
-    const newItem = data.filter((item) => item.type === "giay-nam");
+    const newItem = data.filter((item) => item.status === "tre-em");
     setItem(newItem);
   }, [data]);
-  const showMenShoes = () => {
+  const showAllProductChildren = () => {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
         const { name, img, price, style } = item;
         return (
-          <div className="col-lg-3 shoes-item" key={index}>
+          <div className="col-lg-3 product__children-item" key={index}>
             <div className="Pitem__img">
               <img className="w-100" src={img} alt="" />
               <div className="Pitem__price">
@@ -46,7 +46,7 @@ function Menshoes() {
     return result;
   };
   return (
-    <section className="MShoes">
+    <div className="product-children">
       <div className="container">
         <div className="row">
           <div className="col-12 header-top__wrap">
@@ -58,18 +58,14 @@ function Menshoes() {
                     <span>/</span>
                   </li>
                   <li>
-                    <Link to="/nam">Nam</Link>
-                    <span>/</span>
-                  </li>
-                  <li>
-                    <span>Giày</span>
+                    <span>Trẻ em</span>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="header">
               <div className="header-title">
-                <h2>NAM · GIÀY</h2>
+                <h2>TRẺ EM</h2>
               </div>
             </div>
           </div>
@@ -78,12 +74,12 @@ function Menshoes() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="row">{showMenShoes()}</div>
+            <div className="row">{showAllProductChildren()}</div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
-export default Menshoes;
+export default ProductChildren;

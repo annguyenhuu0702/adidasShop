@@ -1,6 +1,6 @@
 /* quần áo nam */
 
-.MClothes, .WClothes {
+.MClothes, .WClothes, .CClothes {
     padding: 40px 0;
     border-top: 1px solid #ccc;
 }
@@ -44,7 +44,7 @@
 
 /* giày nam */
 
-.MShoes, .WShoes {
+.MShoes, .WShoes, .CShoes {
     padding: 40px 0;
     border-top: 1px solid #ccc;
 }
@@ -92,7 +92,7 @@
 
 /* phụ kiện nam */
 
-.MAccessories, .WAccessories {
+.MAccessories, .WAccessories, .CAccessories {
     padding: 40px 0;
     border-top: 1px solid #ccc;
 }
@@ -104,12 +104,12 @@
 
 /* tất cả sản phẩm nam */
 
-.product-men, .product-women {
+.product-men, .product-women, .product-children {
     padding: 40px 0;
     border-top: 1px solid #ccc;
 }
 
-.product__men-item, .product__women-item {
+.product__men-item, .product__women-item, .product__children-item {
     padding-left: 0;
     margin-bottom: 30px;
 }
