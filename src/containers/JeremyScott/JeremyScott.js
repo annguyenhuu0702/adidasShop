@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "./../../assets/css/pageCollection.css";
 import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function JeremyScott() {
   const dispatch = useDispatch();
@@ -22,9 +23,13 @@ function JeremyScott() {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
-        const { name, img, style, price } = item;
+        const { id, name, img, style, price } = item;
         return (
-          <div className="jeremyscott-item col-lg-3" key={index}>
+          <Link
+            to={`product/${id}`}
+            className="jeremyscott-item col-lg-3"
+            key={index}
+          >
             <div className="item-img">
               <img className="w-100" src={img} alt="" />
               <div className="item-price">
@@ -39,7 +44,7 @@ function JeremyScott() {
                 <span>{style}</span>
               </div>
             </div>
-          </div>
+          </Link>
         );
       });
     }
@@ -51,7 +56,7 @@ function JeremyScott() {
       <div className="container">
         <div className="row">
           <h2>JEREMY SCOTT</h2>
-          <div className="col-lg-12 d-flex">
+          <div className="col-lg-12 d-flex product-item__wrapper">
             <div className="row">{showJeremyscottItem()}</div>
           </div>
         </div>

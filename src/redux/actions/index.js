@@ -15,3 +15,19 @@ export const actFetchData = (data) => {
     payload: data,
   };
 };
+
+// call api lấy product theo id
+export const actSelectedProductRequest = () => {
+  return (dispatch) => {
+    return callApi("/id", "GET", null).then((res) => {
+      dispatch(actSelectedProduct(res.data));
+    });
+  };
+};
+
+export const actSelectedProduct = (id) => {
+  return {
+    type: ActionsType.SELECTED_PRODUCT,
+    payload: id,
+  };
+};

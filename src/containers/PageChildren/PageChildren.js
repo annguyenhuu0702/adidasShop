@@ -10,7 +10,7 @@ function PageChildren() {
         <div className="banner-collection__img">
           <img
             className="w-100"
-            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/triple-black-mini-mh-d_tcm337-784850.jpg"
+            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/lace-fw21-triple-black-plp-mh-mini-kids-2-d_tcm337-784894.jpg"
             alt=""
           />
           <div className="banner-collection__content">

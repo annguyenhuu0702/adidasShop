@@ -22,6 +22,7 @@ import ChildrenShoes from "./containers/ChildrenShoes/ChildrenShoes";
 import ChildrenClothes from "./containers/ChildrenClothes/ChildrenClothes";
 import ChildrenAccessories from "./containers/ChildrenAccessories/ChildrenAccessories";
 import ProductChildren from "./containers/AProductChildren/ProductChildren";
+import ProductDetail from "./containers/ProductDetail/ProductDetail";
 
 const routes = [
   {
@@ -176,6 +177,13 @@ const routes = [
     exact: false,
     main: ({ match, history }) => (
       <ProductChildren match={match} history={history} />
+    ),
+  },
+  {
+    path: "/product/:productId",
+    exact: false,
+    main: ({ match, history }) => (
+      <ProductDetail match={match} history={history} />
     ),
   },
 ];

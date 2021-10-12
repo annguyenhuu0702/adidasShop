@@ -22,9 +22,13 @@ function WomenShoe() {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
-        const { name, img, price, style } = item;
+        const { id, name, img, price, style } = item;
         return (
-          <div className="col-lg-3 shoes-item" key={index}>
+          <Link
+            to={`product/${id}`}
+            className="col-lg-3 shoes-item"
+            key={index}
+          >
             <div className="Pitem__img">
               <img className="w-100" src={img} alt="" />
               <div className="Pitem__price">
@@ -39,7 +43,7 @@ function WomenShoe() {
                 <span>{style}</span>
               </div>
             </div>
-          </div>
+          </Link>
         );
       });
     }
@@ -77,7 +81,7 @@ function WomenShoe() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 product-item__wrapper">
             <div className="row">{showWomenShoes()}</div>
           </div>
         </div>

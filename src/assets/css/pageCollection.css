@@ -94,6 +94,10 @@
     margin: 20px 0;
 }
 
+.tripleblack-item:hover {
+    text-decoration: none;
+}
+
 /* bộ sưu tập supernova */
 
 .supernova {

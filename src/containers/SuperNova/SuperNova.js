@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "./../../assets/css/pageCollection.css";
 import * as dataActions from "./../../redux/actions/index";
 import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function SuperNova() {
   const dispatch = useDispatch();
@@ -16,16 +17,19 @@ function SuperNova() {
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "supernova");
     setItem(newItem);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   const showSupernova = () => {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
-        const { name, img, style, price } = item;
+        const { id, name, img, style, price } = item;
         return (
-          <div className="supernova-item col-lg-3" key={index}>
+          <Link
+            to={`product/${id}`}
+            className="supernova-item col-lg-3"
+            key={index}
+          >
             <div className="item-img">
               <img className="w-100" src={img} alt="" />
               <div className="item-price">
@@ -40,7 +44,7 @@ function SuperNova() {
                 <span>{style}</span>
               </div>
             </div>
-          </div>
+          </Link>
         );
       });
     }
@@ -52,7 +56,7 @@ function SuperNova() {
       <div className="container">
         <div className="row">
           <h2>SUPERNOVA</h2>
-          <div className="col-lg-12 d-flex">
+          <div className="col-lg-12 d-flex product-item__wrapper">
             <div className="row">{showSupernova()}</div>
           </div>
         </div>

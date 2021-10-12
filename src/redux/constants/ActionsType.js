@@ -1,3 +1,4 @@
 export const ActionsType = {
   FETCH_PRODUCT: "FETCH_PRODUCT",
+  SELECTED_PRODUCT: "SELECTED_PRODUCT",
 };

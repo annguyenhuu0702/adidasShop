@@ -33,6 +33,8 @@
     transition: all 0.4s;
     opacity: 1;
     transform: translateY(-10px);
+    text-decoration: none;
+    color: var(--black-color);
 }
 
 .arrivals-img {

@@ -22,9 +22,13 @@ function ChildrenAccessories() {
     let result = null;
     if (item.length > 0) {
       result = item.map((item, index) => {
-        const { name, img, price, style } = item;
+        const { id, name, img, price, style } = item;
         return (
-          <div className="col-lg-3 accessories-item" key={index}>
+          <Link
+            to={`product/${id}`}
+            className="col-lg-3 accessories-item"
+            key={index}
+          >
             <div className="Pitem__img">
               <img className="w-100" src={img} alt="" />
               <div className="Pitem__price">
@@ -39,7 +43,7 @@ function ChildrenAccessories() {
                 <span>{style}</span>
               </div>
             </div>
-          </div>
+          </Link>
         );
       });
     }
@@ -77,7 +81,7 @@ function ChildrenAccessories() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 product-item__wrapper">
             <div className="row">{showChildrenAccessories()}</div>
           </div>
         </div>

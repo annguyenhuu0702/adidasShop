@@ -6,6 +6,7 @@
 .BOAdidas__wrap h2 {
     padding-left: 20px;
     font-size: 3.6rem;
+    margin-bottom: 10px;
 }
 
 .BOAdidas-item {
@@ -51,6 +52,11 @@
     display: flex;
 }
 
+.BOAdidas-item__content {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
 .BOAdidas-content__name {
     margin-top: 16px;
 }
@@ -71,8 +77,9 @@
     background-color: var(--white-color);
 }
 
-.BOAdidas-item__img img:hover {
+.BOAdidas-item__content:hover {
     transition: all 0.4s;
     transform: translateY(-10px);
-    opacity: 1;
+    text-decoration: none;
+    color: var(--black-color);
 }

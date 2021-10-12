@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function BestOfAdidas(props) {
   const settings = {
@@ -47,9 +48,13 @@ function BestOfAdidas(props) {
     let result = null;
     if (BOAdidas.length > 0) {
       result = BOAdidas.map((item, index) => {
-        const { img, name, price } = item;
+        const { id, img, name, price } = item;
         return (
-          <div className="BOAdidas-item__content" key={index}>
+          <Link
+            to={`product/${id}`}
+            className="BOAdidas-item__content"
+            key={index}
+          >
             <div className="BOAdidas-item">
               <div className="BOAdidas-item__img">
                 <img className="w-100" src={img} alt="" />
@@ -63,7 +68,7 @@ function BestOfAdidas(props) {
                 <span>{name}</span>
               </div>
             </div>
-          </div>
+          </Link>
         );
       });
     }
