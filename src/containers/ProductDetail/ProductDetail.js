@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ModalAddToCart from "../../components/ModalAddToCart/ModalAddToCart";
 
 function ProductDetail() {
   const { productId } = useParams();
@@ -39,8 +40,21 @@ function ProductDetail() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+  const [isModal, setIsModal] = useState(false);
   return (
     <section className="page-product__detail">
+      <div className="modal__product">
+        <div className={isModal ? "modal__bg active" : "modal__bg"}></div>
+        <div className={isModal ? "modal__wrapper active" : "modal__wrapper"}>
+          <div className="modal-btn__close" onClick={() => setIsModal(false)}>
+            <button type="">
+              <i className="fas fa-times"></i>
+            </button>
+          </div>
+          <ModalAddToCart />
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -110,7 +124,9 @@ function ProductDetail() {
               )}
               <div className="detai-right__btn-add-cart">
                 <button>
-                  <span>Thêm vào giỏ hàng</span>
+                  <span onClick={() => setIsModal(true)}>
+                    Thêm vào giỏ hàng
+                  </span>
                 </button>
               </div>
               <div className="detai-right__policy">

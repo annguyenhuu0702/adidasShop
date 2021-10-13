@@ -29,7 +29,7 @@
 
 .slick-slider .slick-prev {
     left: 10px;
-    z-index: 10;
+    z-index: 5;
     width: 50px;
     height: 50px;
 }

@@ -13,7 +13,9 @@ function Adizero() {
 
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "adizero-chay");
     setItem(newItem);

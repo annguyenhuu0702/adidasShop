@@ -1,0 +1,143 @@
+.modal__wrapper {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+}
+
+.modal__wrapper.active {
+    display: block;
+}
+
+.modal__bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: var(--black-color);
+    z-index: 10;
+}
+
+.modal__bg.active {
+    display: block;
+}
+
+.modal-detail {
+    padding: 10px 0 40px 0;
+}
+
+.modal-body h2 {
+    font-size: 3rem;
+    padding: 0 20px;
+}
+
+.modal-btn__close {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.modal-btn__close button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: var(--white-color);
+    color: var(--black-color);
+}
+
+.modal-btn__close button i {
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-left {
+    width: 50%;
+    display: flex;
+}
+
+.modal-left__img img {
+    width: 162px;
+    height: 162px;
+}
+
+.modal-left__content {
+    margin-left: 16px;
+}
+
+.left__content-name {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}
+
+.left__content-price {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.left__content-size, .left__content-qtt {
+    color: var(--black-color);
+    font-size: 1.4rem;
+}
+
+.modal-right {
+    width: 50%;
+    padding-left: 20px;
+    border-left: 1px solid #000;
+}
+
+.modal-right__content span, .modal-right__content p {
+    font-size: 1.6rem;
+}
+
+.content__ship {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.content__total-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.content__total-price span {
+    font-weight: bold;
+}
+
+.content__view-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__view-cart button:hover {
+    color: var(--dark-grey-color);
+}
+
+.content__view-cart button {
+    border: none;
+    outline: none;
+    width: 340px;
+    height: 40px;
+    background: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.6rem;
+}
