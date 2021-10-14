@@ -40,8 +40,8 @@
 
 .modal-btn__close {
     position: absolute;
-    top: -25px;
-    right: -25px;
+    top: -35px;
+    right: -35px;
 }
 
 .modal-btn__close button {

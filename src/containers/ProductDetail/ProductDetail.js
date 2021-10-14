@@ -57,8 +57,8 @@ function ProductDetail() {
       <div className="modal__product">
         <div className={isModal ? "modal__bg active" : "modal__bg"}></div>
         <div className={isModal ? "modal__wrapper active" : "modal__wrapper"}>
-          <div className="modal-btn__close" onClick={() => setIsModal(false)}>
-            <button type="">
+          <div className="modal-btn__close">
+            <button onClick={() => setIsModal(false)}>
               <i className="fas fa-times"></i>
             </button>
           </div>

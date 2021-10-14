@@ -121,12 +121,13 @@
 }
 
 .side-menu__cart {
+    color: var(--black-color);
     font-size: 2.6rem;
     margin-left: 20px;
 }
 
-.side-menu__cart i {
-    cursor: pointer;
+.side-menu__cart:hover {
+    color: var(--black-color);
 }
 
 .side-menu__cart-qtt {
@@ -136,7 +137,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #ee4d2d;
+    background: #1a7fb6;
     color: var(--white-color);
     position: absolute;
     top: -6px;

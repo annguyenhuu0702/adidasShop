@@ -2,6 +2,7 @@ import React from "react";
 import "./../../assets/css/base.css";
 import "./../../assets/css/header.css";
 import { Route, Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Header() {
   const menus = [
@@ -59,6 +60,9 @@ function Header() {
     }
     return result;
   };
+
+  const item = useSelector((state) => state.cartItem.cartItem);
+  const qtt = item.length;
   return (
     <header className="header">
       <div className="container">
@@ -106,10 +110,14 @@ function Header() {
                       </span>
                     </form>
                   </div>
-                  <div className="side-menu__cart">
+                  <Link to="/cart" className="side-menu__cart">
                     <i className="far fa-shopping-cart"></i>
-                    <div className="side-menu__cart-qtt">0</div>
-                  </div>
+                    {qtt > 0 ? (
+                      <div className="side-menu__cart-qtt">{qtt}</div>
+                    ) : (
+                      ""
+                    )}
+                  </Link>
                 </div>
               </div>
             </div>

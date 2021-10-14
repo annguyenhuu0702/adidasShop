@@ -76,7 +76,10 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK", "9 UK"],
       "classify": "new-arrivals",
-      "style": "Originals"
+      "style": "Originals",
+      "status": "Nam",
+      "path": "/nam",
+      "type": "giay-nam"
     },
     {
       "id": 10,
@@ -91,7 +94,10 @@
       "size": ["6 UK", "7 UK", "8 UK", "9 UK", "10 UK", "11 UK"],
       "classify": "new-arrivals",
       "style": "Originals",
-      "collection": "jeremy-scott"
+      "status": "Nam",
+      "path": "/nam",
+      "collection": "jeremy-scott",
+      "type": "giay-nam"
     },
     {
       "id": 11,
@@ -106,7 +112,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK", "9 UK"],
       "classify": "new-arrivals",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "collection": "jeremy-scott"
     },
     {
@@ -122,7 +129,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "classify": "new-arrivals",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "collection": "jeremy-scott"
     },
     {
@@ -138,7 +146,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -154,7 +163,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -170,7 +180,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -186,7 +197,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -202,7 +214,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -218,7 +231,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -234,7 +248,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -250,7 +265,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "jeremy-scott",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -266,7 +282,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -282,7 +299,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "jeremy-scott",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -298,7 +316,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -314,7 +333,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -330,7 +350,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -346,7 +367,8 @@
       "size": ["28", "32", "36", "40", "44"],
       "collection": "jeremy-scott",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -359,11 +381,22 @@
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/273719cd5e754e16ab45ad1f00642040_9366/Giay_Forum_Dipped_Low_Jeremy_Scott_Multi_GZ8817_02_standard_hover.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7d5f77c9ddd640df88c6ad1f00597a50_9366/Giay_Forum_Dipped_Low_Jeremy_Scott_Multi_GZ8817_04_standard.jpg"
       ],
-      "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
+      "size": [
+        "4 UK",
+        "5 UK",
+        "6 UK",
+        "7 UK",
+        "8 UK",
+        "9 UK",
+        "10 UK",
+        "11 UK",
+        "12"
+      ],
       "classify": "best-of-adidas",
       "collection": "jeremy-scott",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -376,11 +409,22 @@
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/b6a0593d31644ae7b26ead1f005d9d44_9366/Giay_Forum_Dipped_Jeremy_Scott_Multi_Q46124_02_standard_hover.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c90c8d8e124b4a51a6fead1f0065ee1d_9366/Giay_Forum_Dipped_Jeremy_Scott_Multi_Q46124_03_standard.jpg"
       ],
-      "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
+      "size": [
+        "4 UK",
+        "5 UK",
+        "6 UK",
+        "7 UK",
+        "8 UK",
+        "9 UK",
+        "10 UK",
+        "11 UK",
+        "12"
+      ],
       "classify": "best-of-adidas",
       "collection": "jeremy-scott",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -406,7 +450,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -432,7 +477,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -458,7 +504,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -484,7 +531,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -510,7 +558,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -536,7 +585,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -552,7 +602,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "triple_black_collection",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -578,7 +629,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -594,7 +646,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "triple_black_collection",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -610,7 +663,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "triple_black_collection",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -636,7 +690,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -663,7 +718,8 @@
       "classify": "best-of-adidas",
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -690,7 +746,8 @@
       "classify": "best-of-adidas",
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -716,7 +773,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -743,7 +801,8 @@
       "classify": "best-of-adidas",
       "collection": "triple_black_collection",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -760,7 +819,8 @@
       "classify": "best-of-adidas",
       "collection": "triple_black_collection",
       "style": "Trẻ em chạy",
-      "status": "tre-em"
+      "status": "Trẻ em",
+      "path": "/tre-em"
     },
     {
       "id": 60,
@@ -785,7 +845,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -811,7 +872,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -837,7 +899,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -863,7 +926,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -889,7 +953,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -915,7 +980,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -941,7 +1007,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -967,7 +1034,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -993,7 +1061,8 @@
       ],
       "collection": "triple_black_collection",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1010,7 +1079,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -1027,7 +1097,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -1044,7 +1115,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -1061,7 +1133,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -1077,7 +1150,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -1093,7 +1167,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1119,7 +1194,8 @@
       ],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1135,7 +1211,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1151,7 +1228,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1167,7 +1245,8 @@
       "size": ["XS3"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -1183,7 +1262,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -1209,7 +1289,8 @@
       ],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1235,7 +1316,8 @@
       ],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1251,7 +1333,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1267,7 +1350,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1293,7 +1377,8 @@
       ],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1309,7 +1394,8 @@
       "size": ["M5"],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -1335,7 +1421,8 @@
       ],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1352,7 +1439,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1379,7 +1467,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1396,7 +1485,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -1423,7 +1513,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1440,7 +1531,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1457,7 +1549,8 @@
       "classify": "best-of-adidas",
       "collection": "supernova",
       "style": "Nữ chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1473,7 +1566,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "supernova",
       "style": "Nam chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -1499,7 +1593,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1525,7 +1620,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1551,7 +1647,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1577,7 +1674,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1593,7 +1691,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1609,7 +1708,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1635,7 +1735,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1651,7 +1752,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1667,7 +1769,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1693,7 +1796,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1709,7 +1813,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -1725,7 +1830,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -1741,7 +1847,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -1757,7 +1864,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -1783,7 +1891,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1799,7 +1908,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -1825,7 +1935,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1851,7 +1962,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1867,7 +1979,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1883,7 +1996,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -1909,7 +2023,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1935,7 +2050,8 @@
       ],
       "collection": "superstar-giay",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -1951,7 +2067,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nu"
     },
     {
@@ -1967,7 +2084,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nu"
     },
     {
@@ -1983,7 +2101,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "superstar-giay",
       "style": "Nữ Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nu"
     },
     {
@@ -2009,7 +2128,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2025,7 +2145,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2051,7 +2172,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2067,7 +2189,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2093,7 +2216,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2109,7 +2233,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -2125,7 +2250,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2141,7 +2267,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -2157,7 +2284,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2183,7 +2311,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2209,7 +2338,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2235,7 +2365,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2251,7 +2382,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2267,7 +2399,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2293,7 +2426,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2319,7 +2453,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2335,7 +2470,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2361,7 +2497,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2387,7 +2524,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2403,7 +2541,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2419,7 +2558,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "adizero-chay",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
     {
@@ -2445,7 +2585,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2471,7 +2612,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2497,7 +2639,8 @@
       ],
       "collection": "adizero-chay",
       "style": "Nam Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2513,7 +2656,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2529,7 +2673,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -2555,7 +2700,8 @@
       ],
       "collection": "manchester_united_fc",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
 
@@ -2570,7 +2716,8 @@
       "size": ["S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
 
@@ -2587,7 +2734,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2604,7 +2752,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2621,7 +2770,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2638,7 +2788,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2653,7 +2804,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2670,7 +2822,8 @@
       "size": ["NS"],
       "collection": "manchester_united_fc",
       "style": "Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
 
@@ -2685,7 +2838,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Nam Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2702,7 +2856,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "manchester_united_fc",
       "style": "Bóng Đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -2718,8 +2873,7 @@
       ],
       "size": [],
       "collection": "manchester_united_fc",
-      "style": "Nam Bóng Đá",
-      "status": "nam"
+      "style": "Nam Bóng Đá"
     },
     {
       "id": 156,
@@ -2734,7 +2888,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2760,7 +2915,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Quần Vợt",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2786,7 +2942,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Quần Vợt",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2812,7 +2969,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2838,7 +2996,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2864,7 +3023,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Quần Vợt",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2890,7 +3050,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2916,7 +3077,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2942,7 +3104,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Quần Vợt",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -2958,7 +3121,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -2984,7 +3148,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3000,7 +3165,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3016,7 +3182,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Quần Vợt",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3032,7 +3199,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3048,7 +3216,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3064,7 +3233,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3090,7 +3260,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3116,7 +3287,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3142,7 +3314,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3168,7 +3341,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3184,7 +3358,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3200,7 +3375,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3216,7 +3392,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Sport Inspired",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3242,7 +3419,8 @@
       ],
       "collection": "quan_vot-giay",
       "style": "Nam Quần Vợt",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
     {
@@ -3258,7 +3436,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "quan_vot-giay",
       "style": "Nữ Sport Inspired",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
     {
@@ -3274,7 +3453,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "be",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
 
@@ -3291,7 +3471,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Đánh Gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -3308,7 +3489,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Đánh Gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -3324,7 +3506,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "quan-ao-nu"
     },
 
@@ -3341,7 +3524,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Đánh Gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -3368,7 +3552,8 @@
       ],
       "collection": "be",
       "style": "Nam Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
 
@@ -3385,7 +3570,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Sportswear",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -3402,7 +3588,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "be",
       "style": "Nữ Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
 
@@ -3419,7 +3606,8 @@
       "size": ["OSFW", "OSFM"],
       "collection": "be",
       "style": "Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
 
@@ -3436,7 +3624,8 @@
       "size": ["OSFW", "OSFM"],
       "collection": "be",
       "style": "Originals",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
 
@@ -3453,7 +3642,8 @@
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "collection": "be",
       "style": "Nữ Chạy",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "giay-nu"
     },
 
@@ -3470,7 +3660,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Sportswear",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -3487,7 +3678,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Đánh Gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
 
@@ -3514,7 +3706,8 @@
       ],
       "collection": "be",
       "style": "Nam TERREX",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
 
@@ -3541,7 +3734,8 @@
       ],
       "collection": "be",
       "style": "Chạy",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "giay-nam"
     },
 
@@ -3558,7 +3752,8 @@
       "size": ["XS", "S", "M", "L", "XL"],
       "collection": "be",
       "style": "Nam Sportswear",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "quan-ao-nam"
     },
     {
@@ -3571,7 +3766,8 @@
       ],
       "size": ["XS", "S", "M", "L", "XL"],
       "style": "Tập Luyện",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3586,7 +3782,8 @@
       ],
       "size": ["NS"],
       "style": "Phong cách sóng ",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3601,7 +3798,8 @@
       ],
       "size": ["NS"],
       "style": "Nam đánh gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3614,7 +3812,8 @@
       ],
       "size": ["XS", "S", "M", "L", "XL"],
       "style": "Tập luyện",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3630,7 +3829,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Phong cách sống",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3646,7 +3846,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Bóng đá",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3661,7 +3862,8 @@
       ],
       "size": ["OSFM"],
       "style": "Nam đánh gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3676,7 +3878,8 @@
       ],
       "size": ["NS"],
       "style": "Tập luyện",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3691,7 +3894,8 @@
       ],
       "size": ["OSFM"],
       "style": "Nam đánh gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3706,7 +3910,8 @@
       ],
       "size": ["NS"],
       "style": "Nam đánh gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3721,7 +3926,8 @@
       ],
       "size": ["NS"],
       "style": "Nam đánh gôn",
-      "status": "nam",
+      "status": "Nam",
+      "path": "/nam",
       "type": "phu-kien-nam"
     },
     {
@@ -3736,7 +3942,8 @@
       ],
       "size": ["OSFW"],
       "style": "Nữ đánh gôn",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3751,7 +3958,8 @@
       ],
       "size": ["NS"],
       "style": "Nữ đánh gôn",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3766,7 +3974,8 @@
       ],
       "size": ["NS"],
       "style": "Nữ tập luyện",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3781,7 +3990,8 @@
       ],
       "size": ["NS"],
       "style": "Phong cách sống",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3796,7 +4006,8 @@
       ],
       "size": ["XS", "L"],
       "style": "Originals ",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3809,7 +4020,8 @@
       ],
       "size": ["XS", "L"],
       "style": "Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3822,7 +4034,8 @@
       ],
       "size": ["XS", "L"],
       "style": "Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3837,7 +4050,8 @@
       ],
       "size": ["NS"],
       "style": "Nữ tập luyện",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3850,7 +4064,8 @@
       ],
       "size": ["S", "M", "L"],
       "style": "Tập luyện",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3865,7 +4080,8 @@
       ],
       "size": ["OSFW"],
       "style": "Nữ đánh gôn",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3880,7 +4096,8 @@
       ],
       "size": ["NS"],
       "style": "Tập luyện",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3895,7 +4112,8 @@
       ],
       "size": ["OSFW", "OSFW"],
       "style": "Originals",
-      "status": "nu",
+      "status": "Nữ",
+      "path": "/nu",
       "type": "phu-kien-nu"
     },
     {
@@ -3912,7 +4130,8 @@
 
       "collection": "quan_vot-giay",
       "style": "Gái Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -3928,7 +4147,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Bóng Đá",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -3944,7 +4164,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -3960,7 +4181,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -3976,7 +4198,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -3992,7 +4215,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4008,7 +4232,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4024,7 +4249,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4040,7 +4266,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4056,7 +4283,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4072,7 +4300,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4088,7 +4317,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4104,7 +4334,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Gái Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4120,7 +4351,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4136,7 +4368,8 @@
       "size": ["S", "M", "L"],
 
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "quan-ao-tre-em"
     },
     {
@@ -4151,7 +4384,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Swim",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4166,7 +4400,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Chạy",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4181,7 +4416,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Bơi Lội",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4196,7 +4432,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Bóng Đá",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4211,7 +4448,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Bóng Đá",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4226,7 +4464,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Swim",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4241,7 +4480,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4256,7 +4496,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4271,7 +4512,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Swim",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4286,7 +4528,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Bơi Lội",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4301,7 +4544,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Chạy",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4316,7 +4560,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Chạy",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4331,7 +4576,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Swim",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4346,7 +4592,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Chạy",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4361,7 +4608,8 @@
       ],
       "size": ["4 UK", "5 UK", "6 UK", "7 UK", "8 UK"],
       "style": "Trẻ em Bơi Lội",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "giay-tre-em"
     },
     {
@@ -4374,7 +4622,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4387,7 +4636,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4402,7 +4652,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4417,7 +4668,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4430,7 +4682,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4443,7 +4696,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4458,7 +4712,8 @@
       ],
       "size": ["NS"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4473,7 +4728,8 @@
       ],
       "size": ["NS"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4486,7 +4742,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4501,7 +4758,8 @@
       ],
       "size": ["KS", "KM", "KL"],
       "style": "Trẻ em Originals",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4516,7 +4774,8 @@
       ],
       "size": ["OSFY"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4531,7 +4790,8 @@
       ],
       "size": ["NS"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4546,7 +4806,8 @@
       ],
       "size": ["NS"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4561,7 +4822,8 @@
       ],
       "size": ["NS"],
       "style": "Trẻ em Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     },
     {
@@ -4576,7 +4838,8 @@
       ],
       "size": ["OSFM"],
       "style": "Gái Tập Luyện",
-      "status": "tre-em",
+      "status": "Trẻ em",
+      "path": "/tre-em",
       "type": "phu-kien-tre-em"
     }
   ]

@@ -25,9 +25,9 @@ function ModalAddToCart() {
             <div className="left__content-price">
               <span>{castToVND(price)}</span>
             </div>
-            <div className="left__content-size">
+            {/* <div className="left__content-size">
               <span>Size: 28</span>
-            </div>
+            </div> */}
             <div className="left__content-qtt">
               <span>Số lượng: 1</span>
             </div>
@@ -45,13 +45,11 @@ function ModalAddToCart() {
             </div>
             <div className="content__ship">
               <span>Tổng phí giao hàng</span>
-              <span>{price > 2000000 ? "Miễn phí" : castToVND(30000)}</span>
+              <span>Miễn phí</span>
             </div>
             <div className="content__total-price">
               <span>Tổng cộng</span>
-              <p>
-                {price > 2000000 ? castToVND(price) : castToVND(price + 30000)}
-              </p>
+              <p>{castToVND(price)}</p>
             </div>
             <div className="content__view-cart">
               <button type="">
