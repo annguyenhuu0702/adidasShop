@@ -45,11 +45,14 @@ function ProductDetail() {
     let quantity = 1;
     return quantity;
   });
+
+  // thêm product vào giỏ hàng
   const AddToCart = (product, qtt) => {
     dispatch(dataActions.actAddToCart(product, qtt));
     setIsModal(true);
   };
 
+  // toogle modal
   const [isModal, setIsModal] = useState(false);
 
   return (

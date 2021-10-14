@@ -11,13 +11,18 @@ function ChildrenAccessories() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render product phụ kiện trẻ em
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.type === "phu-kien-tre-em");
     setItem(newItem);
   }, [data]);
+
   const showChildrenAccessories = () => {
     let result = null;
     if (item.length > 0) {

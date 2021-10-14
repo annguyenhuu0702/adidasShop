@@ -1,12 +1,15 @@
 import React from "react";
 import "./../../assets/css/cart.css";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { castToVND } from "./../../shared/index";
 import { Link } from "react-router-dom";
+import * as dataActions from "./../../redux/actions/index";
+import { ActionsType } from "./../../redux/constants/ActionsType";
 
 function Cart() {
   const item = useSelector((state) => state.cartItem.cartItem);
-  const qtt = item.length;
+  const quantity = item.length;
+
   const showCartItem = () => {
     let result = null;
     if (item.length > 0) {
@@ -26,15 +29,25 @@ function Cart() {
               </div>
               <div className="cart-left__qtt">
                 <span>
-                  <i className="fal fa-minus"></i>
+                  <i
+                    className="fal fa-minus"
+                    onClick={() =>
+                      dispatch({ type: ActionsType.DEC, payload: id })
+                    }
+                  ></i>
                 </span>
                 <span>{qtt}</span>
                 <span>
-                  <i className="fal fa-plus"></i>
+                  <i
+                    className="fal fa-plus"
+                    onClick={() =>
+                      dispatch({ type: ActionsType.INC, payload: id })
+                    }
+                  ></i>
                 </span>
               </div>
               <div className="remove-product">
-                <span>Xóa</span>
+                <span onClick={() => removeProduct(product)}>Xóa</span>
               </div>
             </div>
           </div>
@@ -43,11 +56,22 @@ function Cart() {
     }
     return result;
   };
+
+  let totalPrice = 0;
+  item.map((product) => {
+    return (totalPrice += product.qtt * product.price);
+  });
+
+  const dispatch = useDispatch();
+  const removeProduct = (product) => {
+    dispatch(dataActions.actRemoveProduct(product));
+  };
+
   return (
     <div className="cart">
       <div className="container">
         <div className="row">
-          {qtt > 0 ? (
+          {quantity > 0 ? (
             <>
               <h2>GIỎ HÀNG CỦA BẠN</h2>
               <div className="col-lg-12 d-flex">
@@ -56,12 +80,16 @@ function Cart() {
                   <div className="cart-right__content">
                     <h2>TÓM TẮT ĐƠN HÀNG</h2>
                     <div className="right-content__product">
-                      <span>1 SẢN PHẨM</span>
-                      <span>500000</span>
+                      <span>{quantity} SẢN PHẨM</span>
+                      <span>{castToVND(totalPrice)}</span>
+                    </div>
+                    <div className="right-content__ship">
+                      <span>Giao hàng</span>
+                      <span>Miễn phí</span>
                     </div>
                     <div className="right-content__price">
                       <span>Tổng</span>
-                      <span>500000</span>
+                      <span>{castToVND(totalPrice)}</span>
                     </div>
                   </div>
                 </div>

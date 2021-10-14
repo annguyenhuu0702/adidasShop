@@ -32,3 +32,10 @@ export const actAddToCart = (product, qtt) => {
     },
   };
 };
+
+export const actRemoveProduct = (product) => {
+  return {
+    type: ActionsType.REMOVE_PRODUCT,
+    payload: product,
+  };
+};

@@ -11,8 +11,10 @@ function WomenShoe() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
+  // render product giày nữ
   const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.type === "giay-nu");

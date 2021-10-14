@@ -92,7 +92,7 @@
     padding-left: 0;
 }
 
-.right-content__product, .right-content__price {
+.right-content__product, .right-content__price, .right-content__ship {
     margin-top: 8px;
     display: flex;
     justify-content: space-between;

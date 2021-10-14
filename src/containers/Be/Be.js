@@ -11,9 +11,13 @@ function Be() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render bộ sưu tập be
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "be");
     setItem(newItem);

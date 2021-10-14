@@ -11,8 +11,10 @@ function Adizero() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  //lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
+  //render bộ sưu tập adizero chạy
   const [item, setItem] = useState(() => {
     return data;
   });

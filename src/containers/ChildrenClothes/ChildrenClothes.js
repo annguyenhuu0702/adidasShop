@@ -11,9 +11,13 @@ function ChildrenClothes() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render product trẻ em
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.type === "quan-ao-tre-em");
     setItem(newItem);

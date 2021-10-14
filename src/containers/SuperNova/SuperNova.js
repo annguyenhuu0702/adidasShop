@@ -11,9 +11,13 @@ function SuperNova() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render bộ sưu tập supernova
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "supernova");
     setItem(newItem);

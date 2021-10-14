@@ -11,9 +11,13 @@ function ProductMen() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy dữ liệu ở data
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render product nam
+  const [item, setItem] = useState(() => {
+    return data;
+  });
   useEffect(() => {
     const newItem = data.filter((item) => item.status === "Nam");
     setItem(newItem);

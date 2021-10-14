@@ -11,9 +11,15 @@ function TripleBlack() {
     dispatch(dataActions.actFetchDataRequest());
   }, [dispatch]);
 
+  // lấy data ở store
   const data = useSelector((state) => state.allData.allData);
 
-  const [item, setItem] = useState(data);
+  // render bộ sưu tập triple collection
+  const [item, setItem] = useState(() => {
+    return data;
+  });
+
+  // render bộ sưu tập triple black
   useEffect(() => {
     const newItem = data.filter(
       (item) => item.collection === "triple_black_collection"
