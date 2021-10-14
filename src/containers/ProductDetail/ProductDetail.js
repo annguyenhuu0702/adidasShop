@@ -28,7 +28,7 @@ function ProductDetail() {
   }, []);
 
   //lấy data product từ store để render
-  const product = useSelector((state) => state.product);
+  const product = useSelector((state) => state.product.product);
   const { style, name, images, price, size, status, path } = product;
 
   //active vào ô size được chọn
@@ -41,7 +41,17 @@ function ProductDetail() {
     slidesToScroll: 1,
   };
 
+  const [qtt] = useState(() => {
+    let quantity = 1;
+    return quantity;
+  });
+  const AddToCart = (product, qtt) => {
+    dispatch(dataActions.actAddToCart(product, qtt));
+    setIsModal(true);
+  };
+
   const [isModal, setIsModal] = useState(false);
+
   return (
     <section className="page-product__detail">
       <div className="modal__product">
@@ -124,7 +134,7 @@ function ProductDetail() {
               )}
               <div className="detai-right__btn-add-cart">
                 <button>
-                  <span onClick={() => setIsModal(true)}>
+                  <span onClick={() => AddToCart(product, qtt)}>
                     Thêm vào giỏ hàng
                   </span>
                 </button>

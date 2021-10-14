@@ -1,6 +1,8 @@
 import { ActionsType } from "../constants/ActionsType";
 
-const initialState = [];
+const initialState = {
+  product: [],
+};
 
 export const selectedProductReducer = (state = initialState, action) => {
   const product = action.payload;
@@ -8,7 +10,7 @@ export const selectedProductReducer = (state = initialState, action) => {
     case ActionsType.SELECTED_PRODUCT:
       return {
         ...state,
-        ...product,
+        product: product,
       };
     default:
       return state;

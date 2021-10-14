@@ -1,7 +1,13 @@
 import React from "react";
 import "./../../assets/css/modalAddToCart.css";
+import { useSelector } from "react-redux";
+import { castToVND } from "./../../shared/index";
+import { Link } from "react-router-dom";
 
 function ModalAddToCart() {
+  const item = useSelector((state) => state.product.product);
+  const { name, img, price } = item;
+
   return (
     <div className="modal-body">
       <div className="d-flex justify-content-center">
@@ -10,23 +16,20 @@ function ModalAddToCart() {
       <div className="modal-detail">
         <div className="modal-left">
           <div className="modal-left__img">
-            <img
-              src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/08965b3d5dd9457e9a8aac840039672b_9366/Ao_thun_Ba_La_Classics_Adicolor_DJen_GN2896_21_model.jpg"
-              alt=""
-            />
+            <img src={img} alt="" />
           </div>
           <div className="modal-left__content">
             <div className="left__content-name">
-              <span>GIÀY CHẠY BỘ ULTRABOOST 21 TOKYO</span>
+              <span>{name}</span>
             </div>
             <div className="left__content-price">
-              <span>7500000</span>
+              <span>{castToVND(price)}</span>
             </div>
             <div className="left__content-size">
-              <span>Size 28</span>
+              <span>Size: 28</span>
             </div>
             <div className="left__content-qtt">
-              <span>Số lượng 1</span>
+              <span>Số lượng: 1</span>
             </div>
           </div>
         </div>
@@ -34,23 +37,25 @@ function ModalAddToCart() {
           <div className="modal-right__content">
             <h2>GIỎ HÀNG CỦA BẠN</h2>
             <div>
-              <span>2 mặt hàng</span>
+              <span>1 mặt hàng</span>
             </div>
             <div className="d-flex justify-content-between">
               <span>Tổng giá trị sản phẩm</span>
-              <span>700000</span>
+              <span>{castToVND(price)}</span>
             </div>
             <div className="content__ship">
               <span>Tổng phí giao hàng</span>
-              <span>Miễn phí</span>
+              <span>{price > 2000000 ? "Miễn phí" : castToVND(30000)}</span>
             </div>
             <div className="content__total-price">
               <span>Tổng cộng</span>
-              <p>70000000</p>
+              <p>
+                {price > 2000000 ? castToVND(price) : castToVND(price + 30000)}
+              </p>
             </div>
             <div className="content__view-cart">
               <button type="">
-                <span>XEM LẠI GIỎ HÀNG</span>
+                <Link to="/cart">XEM LẠI GIỎ HÀNG</Link>
               </button>
             </div>
           </div>

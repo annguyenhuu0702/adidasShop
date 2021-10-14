@@ -23,6 +23,7 @@ import ChildrenClothes from "./containers/ChildrenClothes/ChildrenClothes";
 import ChildrenAccessories from "./containers/ChildrenAccessories/ChildrenAccessories";
 import ProductChildren from "./containers/AProductChildren/ProductChildren";
 import ProductDetail from "./containers/ProductDetail/ProductDetail";
+import Cart from "./containers/Cart/Cart";
 
 const routes = [
   {
@@ -185,6 +186,11 @@ const routes = [
     main: ({ match, history }) => (
       <ProductDetail match={match} history={history} />
     ),
+  },
+  {
+    path: "/cart",
+    exact: false,
+    main: ({ match, history }) => <Cart />,
   },
 ];
 
