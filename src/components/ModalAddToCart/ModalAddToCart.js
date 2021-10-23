@@ -4,7 +4,8 @@ import { useSelector } from "react-redux";
 import { castToVND } from "./../../shared/index";
 import { Link } from "react-router-dom";
 
-function ModalAddToCart() {
+function ModalAddToCart(props) {
+  const { setSize } = props;
   const item = useSelector((state) => state.product.product);
   const { name, img, price } = item;
 
@@ -25,9 +26,9 @@ function ModalAddToCart() {
             <div className="left__content-price">
               <span>{castToVND(price)}</span>
             </div>
-            {/* <div className="left__content-size">
-              <span>Size: 28</span>
-            </div> */}
+            <div className="left__content-size">
+              <span>Size: {setSize}</span>
+            </div>
             <div className="left__content-qtt">
               <span>Số lượng: 1</span>
             </div>
@@ -52,7 +53,7 @@ function ModalAddToCart() {
               <p>{castToVND(price)}</p>
             </div>
             <div className="content__view-cart">
-              <button type="">
+              <button>
                 <Link to="/cart">XEM LẠI GIỎ HÀNG</Link>
               </button>
             </div>

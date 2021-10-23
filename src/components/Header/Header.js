@@ -61,7 +61,7 @@ function Header() {
     return result;
   };
 
-  const item = useSelector((state) => state.cartItem.cartItem);
+  const item = useSelector((state) => state.cartItem);
   const qtt = item.length;
   return (
     <header className="header">

@@ -35,6 +35,12 @@
     margin: 8px 0;
 }
 
+.cart-left__size {
+    font-size: 1.8rem;
+    color: var(--black-color);
+    margin: 8px 0;
+}
+
 .cart-left__qtt {
     margin-top: 16px;
 }

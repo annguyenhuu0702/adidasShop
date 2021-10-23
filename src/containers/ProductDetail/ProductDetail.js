@@ -47,8 +47,8 @@ function ProductDetail() {
   });
 
   // thêm product vào giỏ hàng
-  const AddToCart = (product, qtt) => {
-    dispatch(dataActions.actAddToCart(product, qtt));
+  const AddToCart = (product, qtt, changeSize) => {
+    dispatch(dataActions.actAddToCart(product, qtt, changeSize));
     setIsModal(true);
   };
 
@@ -65,7 +65,7 @@ function ProductDetail() {
               <i className="fas fa-times"></i>
             </button>
           </div>
-          <ModalAddToCart />
+          <ModalAddToCart setSize={changeSize} />
         </div>
       </div>
       <div className="container">
@@ -137,7 +137,7 @@ function ProductDetail() {
               )}
               <div className="detai-right__btn-add-cart">
                 <button>
-                  <span onClick={() => AddToCart(product, qtt)}>
+                  <span onClick={() => AddToCart(product, qtt, changeSize)}>
                     Thêm vào giỏ hàng
                   </span>
                 </button>

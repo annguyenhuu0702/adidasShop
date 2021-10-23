@@ -7,16 +7,18 @@ import * as dataActions from "./../../redux/actions/index";
 import { ActionsType } from "./../../redux/constants/ActionsType";
 
 function Cart() {
-  const item = useSelector((state) => state.cartItem.cartItem);
+  const item = useSelector((state) => state.cartItem);
   const quantity = item.length;
 
   const showCartItem = () => {
     let result = null;
     if (item.length > 0) {
-      result = item.map((product) => {
-        const { id, name, img, price, qtt } = product;
+      result = item.map((product, index) => {
+        const qtt = product.qtt;
+        const size = product.changeSize;
+        const { id, name, img, price } = product.product;
         return (
-          <div className="cart-left d-flex" key={id}>
+          <div className="cart-left d-flex" key={index}>
             <div className="cart-left__img">
               <img src={img} alt="" />
             </div>
@@ -26,6 +28,9 @@ function Cart() {
               </div>
               <div className="cart-left__price">
                 <span>{castToVND(price)}</span>
+              </div>
+              <div className="cart-left__size">
+                <span>Size: {size}</span>
               </div>
               <div className="cart-left__qtt">
                 <span>
@@ -59,7 +64,7 @@ function Cart() {
 
   let totalPrice = 0;
   item.map((product) => {
-    return (totalPrice += product.qtt * product.price);
+    return (totalPrice += product.qtt * product.product.price);
   });
 
   const dispatch = useDispatch();

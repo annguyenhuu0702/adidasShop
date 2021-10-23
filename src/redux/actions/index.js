@@ -23,12 +23,13 @@ export const actSelectedProduct = (product) => {
   };
 };
 
-export const actAddToCart = (product, qtt) => {
+export const actAddToCart = (product, qtt, changeSize) => {
   return {
     type: ActionsType.ADD_TO_CART,
     payload: {
       product,
       qtt,
+      changeSize,
     },
   };
 };
