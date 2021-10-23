@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 function ModalAddToCart(props) {
   const { setSize } = props;
   const item = useSelector((state) => state.product.product);
+
   const { name, img, price } = item;
 
   return (

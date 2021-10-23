@@ -24,7 +24,7 @@ function Cart() {
             </div>
             <div className="cart-left__content">
               <div className="cart-left__name">
-                <a href=" ">{name}</a>
+                <Link to={`/product/${id}`}>{name}</Link>
               </div>
               <div className="cart-left__price">
                 <span>{castToVND(price)}</span>
