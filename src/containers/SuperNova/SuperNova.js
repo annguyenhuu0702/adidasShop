@@ -15,9 +15,7 @@ function SuperNova() {
   const data = useSelector((state) => state.allData.allData);
 
   // render bộ sưu tập supernova
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "supernova");
     setItem(newItem);

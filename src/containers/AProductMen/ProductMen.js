@@ -15,9 +15,7 @@ function ProductMen() {
   const data = useSelector((state) => state.allData.allData);
 
   // render product nam
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.status === "Nam");
     setItem(newItem);

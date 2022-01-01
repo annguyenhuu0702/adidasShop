@@ -15,9 +15,7 @@ function QuanVotGiay() {
   const data = useSelector((state) => state.allData.allData);
 
   // render bộ sưu tập quần vợt giày
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "quan_vot-giay");
     setItem(newItem);

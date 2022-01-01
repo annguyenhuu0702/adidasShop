@@ -15,9 +15,7 @@ function JeremyScott() {
   const data = useSelector((state) => state.allData.allData);
 
   // render bộ sưu tập jeremy scott
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.collection === "jeremy-scott");
     setItem(newItem);

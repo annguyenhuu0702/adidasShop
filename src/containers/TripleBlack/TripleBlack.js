@@ -15,9 +15,7 @@ function TripleBlack() {
   const data = useSelector((state) => state.allData.allData);
 
   // render bộ sưu tập triple collection
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
 
   // render bộ sưu tập triple black
   useEffect(() => {

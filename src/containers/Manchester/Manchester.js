@@ -15,9 +15,7 @@ function Manchester() {
   const data = useSelector((state) => state.allData.allData);
 
   // render bộ sưu tập MU
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter(
       (item) => item.collection === "manchester_united_fc"

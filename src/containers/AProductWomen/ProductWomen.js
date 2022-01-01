@@ -15,9 +15,7 @@ function ProductWomen() {
   const data = useSelector((state) => state.allData.allData);
 
   // render product nữ
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.status === "Nữ");
     setItem(newItem);

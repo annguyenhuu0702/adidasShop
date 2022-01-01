@@ -15,9 +15,7 @@ function MenAccessories() {
   const data = useSelector((state) => state.allData.allData);
 
   // render product phụ kiện nam
-  const [item, setItem] = useState(() => {
-    return data;
-  });
+  const [item, setItem] = useState(data);
   useEffect(() => {
     const newItem = data.filter((item) => item.type === "phu-kien-nam");
     setItem(newItem);
